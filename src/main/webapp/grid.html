@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<link href="scripts/font/font-icon.css" media="screen" type="text/css" rel="stylesheet">
+<link href="scripts/font-awesome-4.2.0/font-awesome.css" media="screen" type="text/css" rel="stylesheet">
+<link type="text/css" href="scripts/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="styleSheet" href="grid.css" />
+    <link rel="styleSheet" href="scripts/angular/ui-grid.min.css" />
+    <script src="scripts/angular/angular.min.js"></script>
+   <!--  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-touch.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-animate.js"></script>
+    <script src="http://ui-grid.info/docs/grunt-scripts/csv.js"></script>
+    <script src="http://ui-grid.info/docs/grunt-scripts/pdfmake.js"></script>
+    <script src="http://ui-grid.info/docs/grunt-scripts/vfs_fonts.js"></script>-->
+    <script src="http://localhost:8080/ControleTI/scripts/angular/ui-grid.min.js"></script>
+    <script src="grid.js"></script>
+    <style>
+    .
+    </style>
+</head>
+<body>
+    <div class="boxGrid" ng-controller="MainCtrl">
+    	<div class="panel-heading gridTitle">Listing Bookkeeping</div>
+	    <div class="bar">
+	    	<span class="barButton" ng-click="add()"><i class="fa fa-plus iconBarButton"></i> Add New</span>
+	    	<span class="barButton" ng-show="barButton" ng-click="getEdit()"><i class="fa fa-pencil iconBarButton"></i> Edit</span>
+	    	<span class="barButton" ng-show="barButton" ng-click="getView()"><i class="fa fa-file iconBarButton"></i> View</span>
+	    	<span class="barButton" ng-show="barButton" ng-click="getRemove()"><i class="fa fa-trash iconBarButton"></i> Delete</span>
+	    </div>
+	    <div id="grid1" ui-grid="gridOptions " ui-grid-selection ui-grid-resize-columns class="grid"></div>
+    </div>
+</body>
+</html>
