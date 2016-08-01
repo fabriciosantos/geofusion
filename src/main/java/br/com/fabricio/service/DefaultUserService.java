@@ -15,6 +15,7 @@ import org.slf4j.LoggerFactory;
 
 import br.com.fabricio.model.User;
 import br.com.fabricio.repository.UserRepository;
+import br.com.fabricio.util.CommonsMail;
 import br.com.fabricio.util.FailureResponseBuilder;
 import br.com.fabricio.util.ServiceUtil;
 import br.com.fabricio.util.StatusException;
@@ -23,6 +24,7 @@ public class DefaultUserService implements UserService{
 
 
     private UserRepository userRepository;
+    private CommonsMail commonsMail;
     private Validator validator;
     private static final Logger logger = LoggerFactory.getLogger(DefaultUserService.class);
     
@@ -42,6 +44,7 @@ public class DefaultUserService implements UserService{
 	            return new FailureResponseBuilder().toResponse(new StatusException(Status.BAD_REQUEST.getStatusCode(), error));
 	        }
 			User userReturn = userRepository.create(user);
+			commonsMail.sendEmail(user.getName(), user.getEmail(), user.getCompositeKey());
 			URI uri = uriInfo.getRequestUriBuilder().path(String.valueOf(userReturn.getId())).build();
             logger.debug("Service : Usuario criado.");
             return Response.created(uri).build();

@@ -6,18 +6,15 @@ import java.util.Set;
 import javax.inject.Inject;
 import javax.validation.ConstraintViolation;
 import javax.validation.Validator;
-import javax.ws.rs.core.Context;
 import javax.ws.rs.core.Response;
-import javax.ws.rs.core.UriInfo;
 import javax.ws.rs.core.Response.Status;
+import javax.ws.rs.core.UriInfo;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import br.com.fabricio.model.Survey;
-import br.com.fabricio.model.User;
 import br.com.fabricio.repository.SurveyRepository;
-import br.com.fabricio.service.SurveyService;
 import br.com.fabricio.util.FailureResponseBuilder;
 import br.com.fabricio.util.ServiceUtil;
 import br.com.fabricio.util.StatusException;

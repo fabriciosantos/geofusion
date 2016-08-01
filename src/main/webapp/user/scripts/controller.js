@@ -1,15 +1,21 @@
  	
-app.controller('TodoController', ['$scope', '$http', '$modal', function($scope, $http, $modal) {
+app.controller('TodoController', ['$scope', '$http', function($scope, $http) {
 	
-	$scope.user = [];
-		
+	var url = '/geofusion/rest/user/';
+	$scope.user = {};
+	
+	$scope.cleanFields = function(){
+		$scope.user.email = "";
+	}
+	
     $scope.save = function() {
-    	$http.post('/geofusion/rest/user/').
+    	$http.post(url, user).
         success(function (data, status, headers, config) {
-        	
+        	window.location.href = "thank.jsp";
+        	cleanFields();
         }).
         error(function (data, status) {
-        
+        	(status == 500) ? $window.alert("Email ja cadastrado") : $window.location.href = "user.jsp";        	
         });
     	
     };

@@ -247,10 +247,11 @@
 			<id>production</id>
 				<properties>
 				<db.driverClassName>com.mysql.jdbc.Driver</db.driverClassName>
-				<db.url>jdbc:mysql://localhost/geofusion</db.url>
-				<db.username>root</db.username>
-				<db.password></db.password>
+				<db.url>mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/</db.url>
+				<db.username>adminRsYTQA5</db.username>
+				<db.password>6qqwD7wbM9bi</db.password>
 				<db.dialect>org.hibernate.dialect.MySQL5InnoDBDialect</db.dialect>
+				<db.database>fabricioashua</db.database>
 				<db.auto>update</db.auto>
 				<db.showsql>true</db.showsql>
 				<db.formatsql>true</db.formatsql>

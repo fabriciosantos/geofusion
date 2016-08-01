@@ -1,36 +1,36 @@
 <!DOCTYPE html>
-<html ng-app="app">
-<head>
-	<title>Geofusion</title>
-	<meta charset="utf-8">
-	<script type="text/javascript" src="scripts/controller.js"></script>
+<html lang="pt" ng-app="App" >
+	<head>
+		<title>English</title>
+		<base href="/">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" type="text/css" href="assets/libs/bootstrap/dist/css/bootstrap.css">
+	    <script src="../scripts/angular/angular.js"></script>
+		<script src="../scripts/jquery/jquery.min.js"></script>
+		<script src="scripts/controller.js"></script>
+					
 	</head>
-<body ng-controller="TodoController">
-
-	<!-- begin general content -->
-	<div class="container-fluid area">
-	
-		<!-- begin header -->
-		<%@include file="../structure/header.html" %>
-		<!--end header -->
-		
-		<!-- begin body -->
-		<div class="row">
-		
-			<!-- begin left box -->
-			<div class="col-md-2 content">
-			
+	<body class="local" ng-controller="TodoController">
+		<header>
+			<div>
+				<span>O mundo realmente entende oque voce fala</span><br/>
 			</div>
-							
+		</header>
+		<div class="container">
+			<div>
+				<span>Pesquisas comprovam que a cada 5 pessoas no mundo 1 fala inglês.</span><br/>
+				<span>Salário é até 61% maior entre quem fala inglês fluente para quem não fala.</span><br/>
+				<span>Te ofereço a verdade que as escolas tradicionais te escondem, sim é possivel ficar fluente na lingua inglesa em 4 meses.</span><br/>
+				<span>Cadastre seu email para receber em primeira mão este curso que vai revolucionar o jeito de aprender inglês.</span><br/>
+			</div>
+			<form name="form" ><p>
+				<div class="form-group">
+			  	<input type="email" name="email" class="form-control" ng-model="user.email" placeholder="Email" required>
+				<button type="button" save()" class="btn btn-primary" Data-ng-disabled="form.$invalid">Enviar</button>
+				</div>
+				</div>
+			</form>							
 		</div>
-		<!-- end body -->
-		
-		<!-- begin footer -->
-		<%@include file="../structure/footer.html" %>
-		<!-- end footer -->
-		
-	</div>
-	<!-- end general content -->
-		
-</body>
+	</body>
 </html>

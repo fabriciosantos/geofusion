@@ -20,8 +20,8 @@ public interface SurveyService {
     Response create(@Context UriInfo uriInfo, @PathParam("compositeKey") String compositeKey, Survey survey);
 
     @GET
-    @Path("/{id}")
+    @Path("/{compositeKey}")
     @Produces("application/json")
-    Response findOne(String compositeKey);
+    Response findOne(@PathParam("compositeKey")String compositeKey);
 
 }
