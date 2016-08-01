@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="pt" ng-app="App" >
+<html lang="pt" ng-app="Main" >
 	<head>
 		<title>English</title>
 		<base href="/">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" type="text/css" href="assets/libs/bootstrap/dist/css/bootstrap.css">
-	    <script src="../scripts/angular/angular.js"></script>
-		<script src="../scripts/jquery/jquery.min.js"></script>
-		<script src="scripts/controller.js"></script>
-		<script src="../scripts/angular/angular-route.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/libs/bootstrap/dist/css/bootstrap.css">
+	    <script type="text/javascript" src="${pageContext.request.contextPath}/scripts/angular/angular.js"></script>
+		<script type="text/javascript" src="${pageContext.request.contextPath}/scripts/jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="${pageContext.request.contextPath}/controller/controllerSurvey.js"></script>
+		<script type="text/javascript" src="${pageContext.request.contextPath}/scripts/angular/angular-route.min.js"></script>
 					
 	</head>
 	<body class="local" ng-controller="TodoControllerSurvey">
@@ -27,12 +27,11 @@
 				<span>Mais qualquer idioma do mundo em um menor tempo do que os metodos convencionais.</span>
 		
 			</div>
+			<span>Pesquisa comprovam.</span>
 			<div>
-				<span>Pesquisa comprovam.</span>
-				<img src="../imgs/structure/mundo2.jpg" class="img-responsive">
-			</div>						
-			<div>				
-				<img src="../imgs/structure/mundo.jpg" class="img-responsive">
+				
+				<img src="${pageContext.request.contextPath}/imgs/structure/mundo2.png" class="img-responsive">
+				<img src="${pageContext.request.contextPath}/imgs/structure/mundo.jpg" class="img-responsive">
 			</div>
 			
 			<form name="form" ><p>

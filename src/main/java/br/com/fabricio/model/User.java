@@ -4,12 +4,9 @@ import java.io.Serializable;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -18,7 +15,7 @@ public class User implements Serializable{
    
 	private static final long serialVersionUID = -2502507343244301250L;
 
-    private int id;
+    private Integer id;
 
     private String name;
 
@@ -26,15 +23,13 @@ public class User implements Serializable{
     
     private String compositeKey;
 
-    private Survey survey;
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
@@ -64,16 +59,6 @@ public class User implements Serializable{
 	public void setCompositeKey(String compositeKey) {
 		this.compositeKey = compositeKey;
 	}
-
-	@OneToOne(fetch = FetchType.EAGER)
-	@JoinColumn(name = "id", nullable=true)
-	public Survey getSurvey() {
-		return survey;
-	}
-
-	public void setSurvey(Survey survey) {
-		this.survey = survey;
-	}    
 
 }
 

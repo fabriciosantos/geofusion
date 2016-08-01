@@ -1,0 +1,956 @@
+01:08:21.934 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+01:08:21.937 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+01:08:21.956 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+01:08:21.964 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+01:08:21.966 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n√£o encontrado. 
+01:08:21.967 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+01:08:21.968 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+01:08:21.969 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+01:08:21.969 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+01:08:21.970 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+01:08:21.970 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n√£o encontrado. 
+01:08:21.970 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n√£o encontrado. 
+01:08:40.000 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa n„o realizada. 
+01:08:40.005 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+01:08:40.009 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa n„o realizada. 
+01:08:40.011 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+01:08:40.017 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+01:08:40.018 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+01:08:40.018 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+01:08:40.018 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+01:08:40.024 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+01:08:40.024 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+01:08:40.026 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+01:08:40.042 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+01:08:40.043 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+01:08:40.044 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+01:08:40.045 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+01:08:40.046 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+01:08:40.046 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+01:08:40.050 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+01:08:40.052 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+01:08:40.052 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+01:08:40.442 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+01:08:40.486 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario n„o encontrado 
+01:08:40.497 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+01:08:40.513 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+01:08:40.516 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+01:08:40.526 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n„o encontrado 
+01:08:40.529 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+01:09:13.188 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa n„o realizada. 
+01:09:13.193 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+01:09:13.197 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa n„o realizada. 
+01:09:13.198 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+01:09:13.203 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+01:09:13.203 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+01:09:13.205 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+01:09:13.205 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+01:09:13.210 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+01:09:13.210 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+01:09:13.211 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+01:09:13.224 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+01:09:13.225 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+01:09:13.226 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+01:09:13.226 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+01:09:13.227 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+01:09:13.228 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+01:09:13.229 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+01:09:13.229 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+01:09:13.231 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+01:09:13.595 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+01:09:13.638 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+01:09:13.648 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario n„o encontrado 
+01:09:13.663 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+01:09:13.666 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+01:09:13.675 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n„o encontrado 
+01:09:13.677 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+01:09:34.956 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+01:09:35.132 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+01:09:35.152 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+01:09:35.154 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+01:12:22.459 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+01:12:22.626 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+01:12:22.638 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+01:12:22.640 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+01:13:08.107 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+01:13:08.262 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+01:13:08.271 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+01:13:08.273 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+01:13:28.291 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+01:13:28.455 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+01:13:28.489 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+01:13:39.531 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa n„o realizada. 
+01:13:39.536 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+01:13:39.541 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa n„o realizada. 
+01:13:39.542 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+01:13:39.547 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+01:13:39.548 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+01:13:39.549 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+01:13:39.549 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+01:13:39.554 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+01:13:39.555 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+01:13:39.556 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+01:13:39.569 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+01:13:39.570 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+01:13:39.571 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+01:13:39.571 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+01:13:39.571 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+01:13:39.572 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+01:13:39.573 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+01:13:39.574 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+01:13:39.574 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+01:13:39.959 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+01:13:40.015 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+01:13:40.025 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario n„o encontrado 
+01:13:40.047 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+01:13:40.052 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n„o encontrado 
+01:13:40.054 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+15:58:13.013 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa n„o realizada. 
+15:58:13.018 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+15:58:13.022 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+15:58:13.027 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+15:58:13.027 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+15:58:13.028 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+15:58:13.029 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+15:58:13.030 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa n„o realizada. 
+15:58:13.035 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+15:58:13.036 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+15:58:13.037 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+15:58:13.053 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+15:58:13.053 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+15:58:13.055 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+15:58:13.055 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+15:58:13.057 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+15:58:13.058 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+15:58:13.059 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+15:58:13.059 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+15:58:13.060 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+15:58:13.454 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+15:58:13.487 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+15:58:13.496 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario n„o encontrado 
+15:58:13.519 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+15:58:13.523 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+15:58:13.526 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n„o encontrado 
+15:59:57.203 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa n„o realizada. 
+15:59:57.208 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+15:59:57.212 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa n„o realizada. 
+15:59:57.213 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+15:59:57.220 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+15:59:57.221 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+15:59:57.221 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+15:59:57.221 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+15:59:57.227 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+15:59:57.227 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+15:59:57.229 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+15:59:57.248 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+15:59:57.248 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+15:59:57.248 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+15:59:57.250 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+15:59:57.250 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+15:59:57.251 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+15:59:57.252 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+15:59:57.254 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+15:59:57.254 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+15:59:57.604 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+15:59:57.639 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario n„o encontrado 
+15:59:57.649 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+15:59:57.671 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+15:59:57.675 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n„o encontrado 
+15:59:57.678 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:06:48.324 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa n„o realizada. 
+16:06:48.329 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+16:06:48.333 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa n„o realizada. 
+16:06:48.335 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+16:06:48.342 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+16:06:48.342 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+16:06:48.344 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+16:06:48.344 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+16:06:48.350 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+16:06:48.351 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+16:06:48.353 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+16:06:48.361 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+16:06:48.363 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+16:06:48.364 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+16:06:48.364 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+16:06:48.365 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+16:06:48.366 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+16:06:48.366 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+16:06:48.367 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+16:06:48.368 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+16:06:48.732 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+16:06:48.786 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+16:06:48.795 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario n„o encontrado 
+16:06:48.816 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:06:48.821 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n„o encontrado 
+16:06:48.823 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:07:17.272 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+16:07:17.274 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+16:07:17.288 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+16:07:17.319 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+16:07:17.322 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n√£o encontrado. 
+16:07:17.323 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+16:07:17.324 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+16:07:17.325 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+16:07:17.325 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n√£o encontrado. 
+16:07:17.325 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n√£o encontrado. 
+16:07:17.326 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+16:07:17.326 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+16:07:21.932 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+16:07:21.935 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+16:07:21.948 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+16:07:21.954 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+16:07:21.956 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+16:07:21.960 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n√£o encontrado. 
+16:07:21.961 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+16:07:21.961 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n√£o encontrado. 
+16:07:21.961 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n√£o encontrado. 
+16:07:21.962 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+16:07:21.963 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+16:07:21.963 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+16:08:24.191 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+16:08:24.194 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+16:08:24.207 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+16:08:24.212 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+16:08:24.214 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n√£o encontrado. 
+16:08:24.215 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+16:08:24.216 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+16:08:24.217 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+16:08:24.217 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n√£o encontrado. 
+16:08:24.217 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n√£o encontrado. 
+16:08:24.218 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+16:08:24.218 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+16:08:28.996 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa n√£o realizada. 
+16:08:28.999 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+16:08:29.002 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+16:08:29.004 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+16:08:29.004 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+16:08:29.005 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+16:08:29.005 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+16:08:29.005 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa n√£o realizada. 
+16:08:40.925 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+16:08:40.951 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+16:08:40.955 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario n√£o encontrado 
+16:08:52.991 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:08:53.152 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:08:53.153 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:09:03.534 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:09:42.446 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:10:03.871 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:10:42.659 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:10:42.670 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:10:42.685 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:13:43.583 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:17:41.807 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa n„o realizada. 
+16:17:41.811 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+16:17:41.815 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa n„o realizada. 
+16:17:41.816 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+16:17:41.823 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+16:17:41.825 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+16:17:41.825 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+16:17:41.825 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+16:17:41.833 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+16:17:41.833 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+16:17:41.835 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+16:17:41.850 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+16:17:41.851 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+16:17:41.851 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+16:17:41.852 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+16:17:41.852 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+16:17:41.853 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+16:17:41.854 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+16:17:41.856 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+16:17:41.856 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+16:17:42.220 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+16:17:42.257 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario n„o encontrado 
+16:17:42.266 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+16:17:42.289 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:18:42.511 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:18:42.512 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:18:42.518 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n„o encontrado 
+16:18:42.520 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:20:51.903 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:20:53.156 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:20:53.156 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:20:53.177 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:20:53.178 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:23:53.368 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:24:14.665 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:25 
+16:24:14.666 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:25 
+16:24:14.687 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:24:14.690 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:26:25.647 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:26:46.967 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:25 
+16:26:46.967 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:25 
+16:26:46.976 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:26:46.992 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:27:21.186 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:28:21.450 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:28:21.450 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:28:21.460 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:28:21.474 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:28:51.773 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:28:52.548 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:28:52.549 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:28:52.570 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:28:52.572 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:29:53.368 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:29:54.310 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp-relay.gmail.com:465 
+16:29:54.310 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp-relay.gmail.com:465 
+16:29:54.319 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:29:54.333 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:30:02.318 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:30:03.104 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp-relay.gmail.com:465 
+16:30:03.104 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp-relay.gmail.com:465 
+16:30:03.113 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:30:03.126 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:32:10.514 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:32:31.777 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp-relay.gmail.com:25 
+16:32:31.777 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp-relay.gmail.com:25 
+16:32:31.786 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:32:31.800 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:32:38.231 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:32:40.107 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp-relay.gmail.com:587 
+16:32:40.107 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp-relay.gmail.com:587 
+16:32:40.129 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:32:40.131 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:32:45.075 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:32:46.782 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp-relay.gmail.com:587 
+16:32:46.782 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp-relay.gmail.com:587 
+16:32:46.804 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:32:46.805 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:33:50.282 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:33:51.117 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:33:51.117 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:33:51.126 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:33:51.139 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:34:04.312 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:34:05.094 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:34:05.094 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:34:05.116 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:34:05.117 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:38:57.931 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:38:58.783 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.googlemail.com:465 
+16:38:58.783 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.googlemail.com:465 
+16:38:58.805 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:38:58.806 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:41:01.833 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:41:03.794 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.googlemail.com:587 
+16:41:03.795 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.googlemail.com:587 
+16:41:03.817 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:41:03.818 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:41:18.300 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:42:18.513 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.googlemail.com:465 
+16:42:18.514 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.googlemail.com:465 
+16:42:18.525 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:42:18.538 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:46:24.978 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:47:25.265 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.googlemail.com:465 
+16:47:25.266 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.googlemail.com:465 
+16:47:25.289 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:47:25.290 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:49:08.504 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:50:08.760 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:50:08.761 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:50:08.783 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:50:08.785 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:52:06.616 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:53:06.827 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:53:06.828 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:53:06.839 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:53:06.852 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:56:44.958 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:56:45.833 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:56:45.833 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:56:45.855 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:56:45.856 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:56:50.981 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:56:51.754 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:56:51.755 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:56:51.775 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:56:51.776 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:56:54.657 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:56:55.476 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:56:55.477 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:56:55.498 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:56:55.500 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:58:00.341 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:59:00.601 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:59:00.602 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+16:59:00.612 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:59:00.626 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:59:21.048 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:59:22.458 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:587 
+16:59:22.459 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:587 
+16:59:22.467 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:59:22.482 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:59:44.840 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:59:46.264 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:587 
+16:59:46.265 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:587 
+16:59:46.274 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+16:59:46.288 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+17:00:23.339 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:00:24.898 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:587 
+17:00:24.899 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:587 
+17:00:24.919 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+17:00:24.920 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+17:00:29.773 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:00:31.308 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:587 
+17:00:31.308 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:587 
+17:00:31.332 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+17:00:31.334 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+17:01:00.668 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:01:01.460 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:01:01.460 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:01:01.481 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+17:01:01.482 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+17:01:45.706 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:01:46.549 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:01:46.549 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:01:46.571 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+17:01:46.573 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+17:02:55.815 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:02:56.647 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:02:56.647 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:02:56.656 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+17:02:56.670 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+17:06:24.525 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:06:25.321 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:06:25.321 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:06:25.329 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+17:06:25.343 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+17:06:38.989 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:06:39.766 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:06:39.766 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:06:39.775 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+17:06:39.789 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+17:06:49.041 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:06:49.831 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:06:49.832 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:06:49.853 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+17:06:49.854 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+17:07:09.505 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:07:10.299 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:07:10.299 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:07:10.308 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+17:07:10.322 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+17:07:16.852 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:07:17.720 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:07:17.721 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:07:17.741 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+17:07:17.743 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+17:07:27.905 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:07:28.689 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:07:28.689 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:07:28.709 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+17:07:28.711 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+17:07:40.909 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa n„o realizada. 
+17:07:40.914 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+17:07:40.919 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa n„o realizada. 
+17:07:40.920 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+17:07:40.926 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+17:07:40.926 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+17:07:40.928 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+17:07:40.929 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+17:07:40.935 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+17:07:40.935 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+17:07:40.937 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+17:07:40.953 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+17:07:40.953 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+17:07:40.954 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+17:07:40.956 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+17:07:40.957 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+17:07:40.957 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+17:07:40.958 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+17:07:40.958 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+17:07:40.959 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 n„o encontrado. 
+17:07:41.316 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+17:07:41.351 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+17:07:41.360 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario n„o encontrado 
+17:07:41.386 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:07:42.185 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:07:42.185 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:07:42.192 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n„o encontrado 
+17:07:42.193 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+17:08:11.680 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:08:12.469 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:08:12.470 [main] ERROR b.c.f.service.DefaultUserService -
+                Sending the email to the following server failed : smtp.gmail.com:465 
+17:08:12.478 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario n√£o encontrado 
+17:08:12.494 [main] ERROR b.c.f.service.DefaultUserService -
+                null 

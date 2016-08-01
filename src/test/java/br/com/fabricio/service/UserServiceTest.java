@@ -20,17 +20,22 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import br.com.fabricio.model.User;
+import br.com.fabricio.repository.DefaultUserRepository;
 import br.com.fabricio.repository.UserRepository;
+import br.com.fabricio.util.CommonsMail;
 import br.com.fabricio.util.StatusException;
 
 public class UserServiceTest {
 
 	private static UserRepository userRepository;
+	private static DefaultUserRepository defaultUserRepository;
 	private static UserService userService;
+	private static CommonsMail commonsMail;
 	private User user;
 	
 	@BeforeClass
 	public static void mockClasses(){
+		commonsMail = mock(CommonsMail.class);
 		userRepository = mock(UserRepository.class);
 	    ValidatorFactory validatorFactory = Validation.buildDefaultValidatorFactory();
 	    Validator validator = validatorFactory.getValidator();
@@ -51,7 +56,7 @@ public class UserServiceTest {
 	public void create() throws Exception{
 		when(userRepository.create(user)).thenReturn(user);
         UriInfo uriInfo = mock(UriInfo.class);
-        when(uriInfo.getRequestUriBuilder()).thenReturn(new UriBuilderImpl(new URI("/geofusion/rest/user/")));
+        when(uriInfo.getRequestUriBuilder()).thenReturn(new UriBuilderImpl(new URI("")));
         Response response = userService.create(uriInfo, user);
         
         verify(userRepository).create(user);

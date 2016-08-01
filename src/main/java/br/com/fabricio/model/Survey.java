@@ -22,7 +22,7 @@ public class Survey implements Serializable {
 
     private static final long serialVersionUID = -7302596951501440202L;
 
-    private int id;
+    private Integer id;
 
     private String question1;
 
@@ -36,11 +36,11 @@ public class Survey implements Serializable {
     
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
@@ -82,7 +82,7 @@ public class Survey implements Serializable {
 	}
 	
 	@ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.REFRESH)
-	@JoinColumn(name = "id", nullable = false)
+	@JoinColumn(name = "idUser", nullable = false)
 	public User getUser() {
 		return user;
 	}

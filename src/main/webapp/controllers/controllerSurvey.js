@@ -1,4 +1,4 @@
- 	
+var app = angular.module('Main', []); 	
 app.controller('TodoControllerSurvey', ['$scope', '$http', function($scope, $http) {
 	
 	var urlUser = '/geofusion/rest/user/';

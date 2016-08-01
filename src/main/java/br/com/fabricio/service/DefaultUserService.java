@@ -10,6 +10,7 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 import javax.ws.rs.core.UriInfo;
 
+import org.apache.commons.mail.EmailException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,7 +25,6 @@ public class DefaultUserService implements UserService{
 
 
     private UserRepository userRepository;
-    private CommonsMail commonsMail;
     private Validator validator;
     private static final Logger logger = LoggerFactory.getLogger(DefaultUserService.class);
     
@@ -44,7 +44,7 @@ public class DefaultUserService implements UserService{
 	            return new FailureResponseBuilder().toResponse(new StatusException(Status.BAD_REQUEST.getStatusCode(), error));
 	        }
 			User userReturn = userRepository.create(user);
-			commonsMail.sendEmail(user.getName(), user.getEmail(), user.getCompositeKey());
+			sendEmail(user);
 			URI uri = uriInfo.getRequestUriBuilder().path(String.valueOf(userReturn.getId())).build();
             logger.debug("Service : Usuario criado.");
             return Response.created(uri).build();
@@ -52,7 +52,7 @@ public class DefaultUserService implements UserService{
 			logger.error(e.getMessage());
             return new FailureResponseBuilder().toResponse(e);
 		}
-}
+	}
 
 	@Override
 	public Response findOne(int idUser) {
@@ -89,5 +89,14 @@ public class DefaultUserService implements UserService{
 		}
 	}
 
-       
+	private boolean sendEmail(User user) throws EmailException {
+		try {
+			new CommonsMail(user.getName(), user.getEmail(), user.getCompositeKey());
+			logger.debug("Email enviado");
+			return true;
+		} catch (Exception e) {
+			logger.error(e.getMessage());
+			throw e;
+		}			
+	}
 }

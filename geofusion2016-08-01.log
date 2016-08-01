@@ -1,0 +1,28 @@
+01:14:08.297 [qtp300111306-36] ERROR b.c.f.r.DefaultUserRepository -
+                org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: = near line 1, column 63 [SELECT u FROM br.com.fabricio.model.User u WHERE u.email Like = :email ] 
+01:14:08.301 [qtp300111306-36] ERROR b.c.f.service.DefaultUserService -
+                org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: = near line 1, column 63 [SELECT u FROM br.com.fabricio.model.User u WHERE u.email Like = :email ] 
+01:14:08.361 [qtp300111306-33] ERROR b.c.f.r.DefaultUserRepository -
+                org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: = near line 1, column 63 [SELECT u FROM br.com.fabricio.model.User u WHERE u.email Like = :email ] 
+01:14:08.362 [qtp300111306-33] ERROR b.c.f.service.DefaultUserService -
+                org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: = near line 1, column 63 [SELECT u FROM br.com.fabricio.model.User u WHERE u.email Like = :email ] 
+15:58:40.882 [qtp2053136992-35] ERROR b.c.f.r.DefaultUserRepository -
+                Parameter with that name [Email] did not exist 
+15:58:40.887 [qtp2053136992-35] ERROR b.c.f.service.DefaultUserService -
+                Parameter with that name [Email] did not exist 
+15:58:40.924 [qtp2053136992-37] ERROR b.c.f.r.DefaultUserRepository -
+                Parameter with that name [Email] did not exist 
+15:58:40.925 [qtp2053136992-37] ERROR b.c.f.service.DefaultUserService -
+                Parameter with that name [Email] did not exist 
+16:00:14.799 [qtp154923232-37] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+16:00:14.800 [qtp154923232-37] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+16:00:14.804 [qtp154923232-37] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+16:00:14.826 [qtp154923232-36] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+16:00:14.826 [qtp154923232-36] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+16:00:14.827 [qtp154923232-36] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 

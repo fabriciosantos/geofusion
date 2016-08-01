@@ -73,7 +73,7 @@ public class DefaultUserRepository implements UserRepository{
 
 
 	private boolean getUser(String email) {
-        Query query = entityManager.createQuery("SELECT u FROM User u WHERE u.email Like = :email ");
+        Query query = entityManager.createQuery("SELECT u FROM User u WHERE u.email Like :Email ");
         query.setParameter("Email", email);
         @SuppressWarnings("unchecked")
 		List<User> list =  query.getResultList();
