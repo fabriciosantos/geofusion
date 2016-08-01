@@ -1,5 +1,6 @@
 package br.com.fabricio.repository;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -27,7 +28,8 @@ public class DefaultUserRepository implements UserRepository{
 	@Override
 	public User create(User user) throws Exception {
 		try {
-    		if (getUser(user.getEmail())) {
+			List<User> listReturn = getUser(user.getEmail());
+    		if (listReturn.size() >= 1) {
                 logger.error("Email ja cadastrado");
                 throw new StatusException(Status.BAD_REQUEST.getStatusCode(), "Email ja cadastrado");
 			}    		
@@ -72,15 +74,17 @@ public class DefaultUserRepository implements UserRepository{
 	}
 
 
-	private boolean getUser(String email) {
-        Query query = entityManager.createQuery("SELECT u FROM User u WHERE u.email Like :Email ");
-        query.setParameter("Email", email);
-        @SuppressWarnings("unchecked")
-		List<User> list =  query.getResultList();
+	@SuppressWarnings({ "unchecked", "rawtypes" })
+	private List<User> getUser(String email) {
+        Query query = entityManager.createQuery("SELECT u FROM User u WHERE u.email = :mail ");
+        query.setParameter("email", email);
+        
+        List<User> list =  query.getResultList();
         if (list == null) {
-            return false;
+            list = new ArrayList();
+            return list;
         }
-        return true;
+        return list;
 	}
 	
 

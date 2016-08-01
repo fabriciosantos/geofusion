@@ -8,6 +8,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Context;
+import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 
@@ -17,18 +18,18 @@ import br.com.fabricio.model.User;
 public interface UserService {
 
     @POST
-    @Consumes("application/json")
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
     Response create(@Context UriInfo uriInfo, User user) throws Exception;
 
     @GET
     @Path("/{id}")
-    @Produces("application/json")
+    @Produces(MediaType.APPLICATION_JSON)
     Response findOne(@PathParam("id") int idUser);
-
     
     @PUT
     @Path("/id")
-    @Consumes("application/json")
+    @Consumes(MediaType.APPLICATION_JSON)
     Response update(User user);
  
 }

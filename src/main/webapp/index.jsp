@@ -26,7 +26,7 @@
 			</div>
 			<form name="form" ><p>
 				<div class="form-group">
-			  	<input type="email" name="email" class="form-control" ng-model="user.email" placeholder="Email" required><p><p>
+			  	<input type="email" name="email" class="form-control" Data-ng-model="user.email" placeholder="Email" required><p><p>
 				<button type="button" Data-ng-click="save()" class="btn btn-primary" Data-ng-disabled="form.$invalid">Enviar</button>
 				</div>
 				</div>

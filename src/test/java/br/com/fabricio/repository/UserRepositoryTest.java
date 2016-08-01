@@ -4,6 +4,7 @@ import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.EntityManager;
@@ -66,15 +67,14 @@ public class UserRepositoryTest {
         assertEquals(user, persistedUser);
     }
     
-    @Test(expected=Exception.class)
+    @Test
     public void createEmailAlreadyExist() throws Exception {
-    	User user1 = new User();
+    	List<User> list = new ArrayList<>();
+    	list.add(user);
     	Query query = mock(Query.class);
     	when(entityManager.createQuery(Matchers.anyString())).thenReturn(query);
-        when(query.getSingleResult()).thenReturn(user1);
-    	User persistedUser = defaultUserRepository.create(user);
-        Mockito.verify(entityManager).persist(user);
-        assertEquals(user, persistedUser);
+        when(query.getSingleResult()).thenReturn(list);
+    	defaultUserRepository.create(user);
     }
 
     @Test

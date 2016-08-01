@@ -10,19 +10,17 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 import javax.ws.rs.core.UriInfo;
 
-import org.apache.commons.mail.EmailException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import br.com.fabricio.model.User;
 import br.com.fabricio.repository.UserRepository;
-import br.com.fabricio.util.CommonsMail;
 import br.com.fabricio.util.FailureResponseBuilder;
+import br.com.fabricio.util.SendEmail;
 import br.com.fabricio.util.ServiceUtil;
 import br.com.fabricio.util.StatusException;
 
 public class DefaultUserService implements UserService{
-
 
     private UserRepository userRepository;
     private Validator validator;
@@ -44,7 +42,15 @@ public class DefaultUserService implements UserService{
 	            return new FailureResponseBuilder().toResponse(new StatusException(Status.BAD_REQUEST.getStatusCode(), error));
 	        }
 			User userReturn = userRepository.create(user);
-			sendEmail(user);
+			
+			String message = "	Obrigado pela sua participação no meu curso. "
+	    			+ "Click no link abaixo para descobrir o segredo da fluência."
+	    			+ "Um abraço e nós vemos em breve."
+	    			+ " http://fabricioashua-fabricioashua.rhcloud.com/geofusion/survey?"+ user.getCompositeKey();
+			
+			SendEmail sendEmail = new SendEmail("smtp.gmail.com","465");
+			sendEmail.sendMail("fluenciaagora@gmail.com", user.getEmail(), "Importante", message);
+			
 			URI uri = uriInfo.getRequestUriBuilder().path(String.valueOf(userReturn.getId())).build();
             logger.debug("Service : Usuario criado.");
             return Response.created(uri).build();
@@ -87,16 +93,5 @@ public class DefaultUserService implements UserService{
 			logger.error(e.getMessage());
             return new FailureResponseBuilder().toResponse(e);
 		}
-	}
-
-	private boolean sendEmail(User user) throws EmailException {
-		try {
-			new CommonsMail(user.getName(), user.getEmail(), user.getCompositeKey());
-			logger.debug("Email enviado");
-			return true;
-		} catch (Exception e) {
-			logger.error(e.getMessage());
-			throw e;
-		}			
-	}
+	}	
 }
