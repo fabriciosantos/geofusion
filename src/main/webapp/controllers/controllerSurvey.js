@@ -6,7 +6,7 @@ app.controller('TodoControllerSurvey', ['$scope', '$http', function($scope, $htt
 	
 	$scope.user = {};
 	
-	var vkey = location.search.split("?");
+	$scope.key = location.search.split("?");
 	
 	
 	$scope.cleanFields = function(){
@@ -16,12 +16,12 @@ app.controller('TodoControllerSurvey', ['$scope', '$http', function($scope, $htt
 		$scope.survey.question3 = "";		
 	}
 	
-	$scope.verify = function(key){
-		$http.get(urlUser + key).
+	$rootScope.verify = function(){
+		$http.get(urlSurvey + $scope.key).
 		sucess(function (data, status, headers, config){
 		}).
 		error(function(){
-			(status == 500) ? $window.alert("Email ja cadastrado") : $window.location.href = "user.jsp"; 
+			(status == 400) ? alert("Email ja cadastrado") : location.href = "user.jsp"; 
 		})
 	}
 	
@@ -32,7 +32,7 @@ app.controller('TodoControllerSurvey', ['$scope', '$http', function($scope, $htt
         	cleanFields();
         }).
         error(function (data, status) {
-        	(status == 500) ? $window.alert("Email ja cadastrado") : $window.location.href = "user.jsp";        	
+        	(status == 500) ? alert("Email ja cadastrado") : location.href = "user.jsp";        	
         });
     	
     };
@@ -40,16 +40,16 @@ app.controller('TodoControllerSurvey', ['$scope', '$http', function($scope, $htt
     $scope.saveSurvey = function(){
     	$http.post(urlSurvey, survey).
     	success(function (data, status, headers, config){
-    		window.location.href = "congratulations.jsp";
+    		location.href = "geofusion/congratulations.jsp";
     	}).error(function (data, status){
-    		window.location.href = "user.jsp";
+    		location.href = "user.jsp";
     	})
     }
 
 }]);
 
 //run
-app.run(function($rootScope, translationService) {
-	verify(key);
+app.run(function() {
+	verify();
 
 });

@@ -76,7 +76,7 @@ public class DefaultUserRepository implements UserRepository{
 
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	private List<User> getUser(String email) {
-        Query query = entityManager.createQuery("SELECT u FROM User u WHERE u.email = :mail ");
+        Query query = entityManager.createQuery("SELECT u FROM User u WHERE u.email = :email ");
         query.setParameter("email", email);
         
         List<User> list =  query.getResultList();
@@ -89,10 +89,10 @@ public class DefaultUserRepository implements UserRepository{
 	
 
 	private String compositeKey() {
-		String key ="";
+		String key = "";
 		Random random = new Random();
 		for (int i = 0; i < 20; i++) {
-			key += random.nextInt();
+			key += String.valueOf(random.nextInt(20));
 		}		
 		return key;
 	}

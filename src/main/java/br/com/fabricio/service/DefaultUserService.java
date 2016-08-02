@@ -46,7 +46,7 @@ public class DefaultUserService implements UserService{
 			String message = "	Obrigado pela sua participação no meu curso. "
 	    			+ "Click no link abaixo para descobrir o segredo da fluência."
 	    			+ "Um abraço e nós vemos em breve."
-	    			+ " http://fabricioashua-fabricioashua.rhcloud.com/geofusion/survey?"+ user.getCompositeKey();
+	    			+ " http://fabricioashua-fabricioashua.rhcloud.com/geofusion/survey.jsp?"+ user.getCompositeKey();
 			
 			SendEmail sendEmail = new SendEmail("smtp.gmail.com","465");
 			sendEmail.sendMail("fluenciaagora@gmail.com", user.getEmail(), "Importante", message);

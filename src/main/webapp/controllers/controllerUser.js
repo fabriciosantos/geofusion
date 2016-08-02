@@ -9,15 +9,15 @@ app.controller('TodoControllerUser', ['$scope', '$http', function($scope, $http)
 		$scope.user.email = "";
 	}
 	
-    $scope.save = function(pUser) {
-    	var promisse =  $http.post(url, pUser).
+    $scope.save = function() {
+    	$http.post(url, $scope.user).
         success(function () {
-        	console.log(user);
-        	cleanFields();
+        	$scope.cleanFields();
+        	 location.href="geofusion/thank.jsp";
         }).
         error(function (data, status) {
+   
         	 return status;        	
-        });
-    	return promisse;
+        });    	
     };
 }]);
