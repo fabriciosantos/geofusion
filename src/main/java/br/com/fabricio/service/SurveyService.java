@@ -12,10 +12,11 @@ import javax.ws.rs.core.UriInfo;
 
 import br.com.fabricio.model.Survey;
 
-@Path("/survey/{compositeKey}")
+@Path("/survey")
 public interface SurveyService {
 
     @POST
+    @Path("/{compositeKey}")
     @Consumes("application/json")
     Response create(@Context UriInfo uriInfo, @PathParam("compositeKey") String compositeKey, Survey survey);
 

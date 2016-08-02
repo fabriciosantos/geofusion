@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt" ng-app="Main" >
+	<head>
+		<title>Flu�ncia Agora</title>
+		<meta charset="utf-8"/>
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+       
+        <link rel="stylesheet" type="text/css" href="assets/libs/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	    <script type="text/javascript" src="assets/libs/angular/angular.min.js"></script>
+		<script type="text/javascript" src="app/survey/scripts/surveyController.js"></script>
+		<script type="text/javascript" src="app/survey/scripts/surveyFactory.js"></script>	
+					
+	</head>
+	<body class="local" ng-controller="surveyController">
+		<header>
+			<div class="header-content">
+            <div class="header-content-inner">
+                
+				<h1>Seja Bem Vindo</h1>
+				<h2>Parabens pela excelente decisão.</h2>
+			</div>
+			</div>
+		</header>
+		<div class="container">
+			<div>
+				</br><h2>Todos já sabem que falar inglâ é muito importante, seja para uma viagem, ou para uma  dão sonhada promoção no trabalho.
+				Mais arrumar tempo para ir em um escola tradicional, com metodos tradicionais, que te levara a fluência em aproximadamente 5 anos ou mais.
+				Não se encaixa mais na vida cotidiana que vivemos, onde o espaço para adquirir conhecimento é curto.</h2>
+				<h2>Após muitos anos de estudo e cansado de gastar fortunas em escolas tradicionais, descobri uma formula de como aprender não só o idioma inglês.
+				Mais qualquer idioma do mundo em um menor tempo do que os metodos convencionais.</h2>
+		
+			</div>
+			<div>			
+				<img src="assets/imgs/structure/mundo2.png" width="500" class="img-rounded">
+				<img src="assets/imgs/structure/mundo.jpg" width="500" class="img-rounded">
+			</div>
+			
+			<form name="form" ><p>
+				<h2>Responda nossa pesquisa e ganhe um modulo inicial do nosso curso no dia do lan�amento, que esta previsto para a primeira quinzena de dezembro de 2016.</h2></br>
+				<div class="form-group">
+				    <span >Nome</span>
+					<input type="text" name="name" class="form-control" ng-model="user.name" required><p></p>
+				</div>
+				<div class="form-group">
+				    <span >Oque voc� espera do nosso curso?</span>
+					<input type="text" name="question1" class="form-control" ng-model="survey.question1" required><p></p>
+				</div>
+				<div class="form-group">
+				    <span >Quanto voc� esta disposto a pagar para ser flu�nte em ingl�s?</span>
+					<input type="text" name="question2" class="form-control" ng-model="survey.question2" required><p></p>
+				</div>
+				<div class="form-group">
+				    <span >O que voc� realmente precisa?</span>
+					<input type="text" name="question3" class="form-control" ng-model="survey.question3" required><p></p>
+				</div>
+				<div class="form-group">
+			  	<button type="button" save()" class="btn btn-primary" Data-ng-disabled="form.$invalid">Enviar</button>
+				</div>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

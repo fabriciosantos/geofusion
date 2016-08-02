@@ -1,0 +1,596 @@
+09:31:18.333 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+09:31:18.343 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+09:31:18.353 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+09:31:18.356 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+09:31:18.367 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+09:31:18.368 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+09:31:18.371 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+09:31:18.371 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+09:31:18.381 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+09:31:18.389 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+09:31:18.392 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+09:31:18.415 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+09:31:18.417 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+09:31:18.420 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+09:31:18.422 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+09:31:18.423 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+09:31:18.425 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+09:31:18.425 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+09:31:18.426 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+09:31:19.235 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+09:31:19.310 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+09:31:19.326 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario não encontrado 
+09:31:19.354 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+09:31:20.907 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+09:31:20.914 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+09:31:20.918 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario não encontrado 
+15:09:57.941 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+15:09:57.946 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+15:09:57.951 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+15:09:57.957 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+15:09:57.958 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+15:09:57.958 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+15:09:57.959 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+15:09:57.960 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+15:09:57.965 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+15:09:57.966 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+15:09:58.023 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+15:09:58.032 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+15:09:58.033 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+15:09:58.034 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+15:09:58.035 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+15:09:58.036 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+15:09:58.036 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+15:09:58.036 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+15:09:58.036 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+15:09:58.401 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+15:09:58.438 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario não encontrado 
+15:09:58.448 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+15:09:58.465 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+15:10:02.617 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+15:10:02.620 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+15:10:02.622 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario não encontrado 
+15:25:15.046 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+15:25:15.051 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+15:25:15.055 [main] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+15:25:15.057 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+15:25:15.063 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+15:25:15.063 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+15:25:15.064 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+15:25:15.064 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+15:25:15.069 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+15:25:15.070 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+15:25:15.128 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+15:25:15.139 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+15:25:15.141 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+15:25:15.141 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+15:25:15.142 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+15:25:15.142 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+15:25:15.143 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+15:25:15.144 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+15:25:15.146 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+15:25:15.509 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+15:25:15.554 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+15:25:15.562 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario não encontrado 
+15:25:15.577 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+15:25:19.627 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+15:25:19.630 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario não encontrado 
+15:25:19.632 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:45:33.702 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Usuario não cadastrado. 
+16:45:33.713 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Usuario não cadastrado. 
+16:45:33.713 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Usuario não cadastrado. 
+16:45:33.722 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Usuario não cadastrado. 
+16:45:33.723 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Usuario não cadastrado. 
+16:45:33.725 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                br.com.fabricio.model.Survey cannot be cast to br.com.fabricio.model.User 
+16:45:33.725 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                br.com.fabricio.model.Survey cannot be cast to br.com.fabricio.model.User 
+16:45:33.727 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                br.com.fabricio.model.Survey cannot be cast to br.com.fabricio.model.User 
+16:45:33.733 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+16:45:33.734 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+16:45:33.809 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+16:45:33.823 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+16:45:33.824 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+16:45:33.824 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+16:45:33.824 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+16:45:33.826 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+16:45:33.826 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+16:45:33.827 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+16:45:33.829 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+16:45:34.185 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+16:45:34.220 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+16:45:34.229 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario não encontrado 
+16:45:34.244 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:45:37.952 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+16:45:37.956 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario não encontrado 
+16:45:37.957 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:55:58.792 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Usuario não cadastrado. 
+16:55:58.800 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Usuario não cadastrado. 
+16:55:58.800 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Usuario não cadastrado. 
+16:55:58.808 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                br.com.fabricio.model.Survey cannot be cast to br.com.fabricio.model.User 
+16:55:58.808 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                br.com.fabricio.model.Survey cannot be cast to br.com.fabricio.model.User 
+16:55:58.811 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                br.com.fabricio.model.Survey cannot be cast to br.com.fabricio.model.User 
+16:55:58.812 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Usuario não cadastrado. 
+16:55:58.813 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Usuario não cadastrado. 
+16:55:58.821 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+16:55:58.821 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+16:55:58.898 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+16:55:58.910 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+16:55:58.911 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+16:55:58.913 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+16:55:58.914 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+16:55:58.915 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+16:55:58.915 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+16:55:58.916 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+16:55:58.916 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+16:55:59.281 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+16:55:59.314 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+16:55:59.322 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario não encontrado 
+16:55:59.335 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+16:56:03.188 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+16:56:03.190 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+16:56:03.192 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario não encontrado 
+17:07:25.575 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Index: 1, Size: 0 
+17:07:25.579 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Index: 1, Size: 0 
+17:07:25.586 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Index: 1, Size: 0 
+17:07:25.586 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Index: 1, Size: 0 
+17:07:25.588 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Index: 1, Size: 0 
+17:07:25.589 [main] ERROR b.c.f.r.DefaultSurveyRepository -
+                Index: 1, Size: 0 
+17:07:25.597 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+17:07:25.598 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+17:07:25.671 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+17:07:25.684 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+17:07:25.685 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+17:07:25.686 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+17:07:25.692 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:07:25.693 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+17:07:25.694 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:07:25.694 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:07:25.695 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+17:07:26.051 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+17:07:26.084 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+17:07:26.092 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario não encontrado 
+17:07:26.104 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:07:30.544 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+17:07:30.547 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+17:07:30.549 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario não encontrado 
+17:08:13.160 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+17:08:13.165 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+17:08:13.258 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+17:08:13.269 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+17:08:13.270 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+17:08:13.272 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+17:08:13.273 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+17:08:13.280 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:08:13.280 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:08:13.282 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+17:08:13.282 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:08:13.664 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+17:08:13.698 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+17:08:13.708 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario não encontrado 
+17:08:13.720 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:08:17.499 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+17:08:17.501 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+17:08:17.503 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario não encontrado 
+17:16:48.841 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+17:16:48.846 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+17:16:48.939 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+17:16:48.949 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+17:16:48.951 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+17:16:48.952 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+17:16:48.958 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:16:48.958 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+17:16:48.959 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:16:48.959 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:16:48.959 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+17:16:49.353 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+17:16:49.393 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario não encontrado 
+17:16:49.404 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+17:16:49.420 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:16:56.457 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+17:16:56.462 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+17:16:56.463 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario não encontrado 
+17:19:44.348 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+17:19:44.353 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+17:19:44.445 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+17:19:44.456 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+17:19:44.462 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:19:44.463 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:19:44.464 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+17:19:44.466 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+17:19:44.466 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:19:44.467 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+17:19:44.468 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+17:19:44.901 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+17:19:44.945 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario não encontrado 
+17:19:44.957 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+17:19:44.973 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:19:51.569 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+17:19:51.571 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario não encontrado 
+17:19:51.574 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+17:21:47.741 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+17:21:47.747 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+17:21:47.835 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+17:21:47.844 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+17:21:47.849 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:21:47.850 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+17:21:47.852 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+17:21:47.853 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+17:21:47.854 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:21:47.854 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:21:47.856 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+17:21:48.249 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+17:21:48.287 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario não encontrado 
+17:21:48.300 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+17:21:48.317 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:21:52.082 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+17:21:52.085 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario não encontrado 
+17:21:52.086 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+17:38:59.677 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+17:38:59.700 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+17:38:59.796 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+17:38:59.807 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+17:38:59.809 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+17:38:59.810 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+17:38:59.815 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:38:59.816 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:38:59.817 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+17:38:59.819 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+17:38:59.819 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:39:00.278 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+17:39:00.320 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+17:39:00.333 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario não encontrado 
+17:39:00.349 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:39:06.990 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+17:39:06.993 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+17:39:06.996 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario não encontrado 
+17:44:46.547 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+17:44:46.551 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+17:44:46.639 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+17:44:46.648 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+17:44:46.652 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:44:46.652 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:44:46.653 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+17:44:46.654 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+17:44:46.654 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:44:46.655 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+17:44:46.656 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+17:44:47.015 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+17:44:47.051 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+17:44:47.062 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario não encontrado 
+17:44:47.080 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:44:51.656 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+17:44:51.658 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario não encontrado 
+17:44:51.660 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+17:50:15.908 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+17:50:15.913 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+17:50:16.002 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+17:50:16.011 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+17:50:16.012 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+17:50:16.014 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+17:50:16.019 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:50:16.020 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+17:50:16.021 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:50:16.021 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:50:16.022 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+17:50:16.424 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+17:50:16.468 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+17:50:16.478 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario não encontrado 
+17:50:16.495 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:50:20.452 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+17:50:20.455 [main] ERROR b.c.f.service.DefaultUserService -
+                null 
+17:50:20.456 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario não encontrado 
+17:57:44.469 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+17:57:44.474 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+17:57:44.569 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+17:57:44.582 [main] ERROR b.c.f.r.DefaultUserRepository -
+                null 
+17:57:44.583 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+17:57:44.584 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+17:57:44.590 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:57:44.591 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa nao encontrada 
+17:57:44.591 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:57:44.591 [main] ERROR b.c.f.r.DefaultUserRepository -
+                Pessoa id 1 não encontrado. 
+17:57:44.593 [main] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+17:57:45.004 [main] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+17:57:45.053 [main] ERROR b.c.f.service.DefaultSurveyService -
+                null 
+17:57:45.065 [main] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Usuario não encontrado 
+17:57:45.079 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario atualizado. 
+17:57:49.004 [main] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+17:57:49.007 [main] ERROR b.c.f.service.DefaultUserService -
+                Service : Usuario não encontrado 
+17:57:49.008 [main] ERROR b.c.f.service.DefaultUserService -
+                null 

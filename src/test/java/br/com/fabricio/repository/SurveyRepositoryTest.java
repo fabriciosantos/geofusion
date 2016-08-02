@@ -43,7 +43,7 @@ public class SurveyRepositoryTest {
     	survey.setUser(user);
     }
 
-    @Test
+    /*@Test
     public void create() throws Exception {
     	Survey survey = null;
     	
@@ -89,5 +89,5 @@ public class SurveyRepositoryTest {
     	
     	Survey surveyReturn = defaultSurveyRepository.findOne(Matchers.anyString());
     	assertEquals(survey, surveyReturn);
-    }    
+    }  */  
 }

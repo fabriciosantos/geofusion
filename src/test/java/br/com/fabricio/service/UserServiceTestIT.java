@@ -1,10 +1,6 @@
 package br.com.fabricio.service;
 
 import org.junit.Test;
-import static com.jayway.restassured.RestAssured.expect;
-import static com.jayway.restassured.RestAssured.given;
-
-import javax.ws.rs.core.Response;
 
 public class UserServiceTestIT {
 

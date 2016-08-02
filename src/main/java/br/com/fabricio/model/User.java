@@ -15,16 +15,19 @@ public class User implements Serializable{
    
 	private static final long serialVersionUID = -2502507343244301250L;
 
-    private Integer id;
-
-    private String name;
-
-    private String email;
-    
-    private String compositeKey;
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+
+	@Column(name = "NAME", nullable = false, length = 50)
+    private String name;
+
+	@Column(name = "EMAIL", nullable = false, length = 100)
+    private String email;
+
+	@Column(name = "COMPOSITEKEY", nullable = false, length = 50)
+    private String compositeKey;
+
 	public Integer getId() {
 		return id;
 	}
@@ -33,7 +36,6 @@ public class User implements Serializable{
 		this.id = id;
 	}
 
-	@Column(name = "NAME", nullable = false, length = 50)
 	public String getName() {
 		return name;
 	}
@@ -42,7 +44,6 @@ public class User implements Serializable{
 		this.name = name;
 	}
 
-	@Column(name = "EMAIL", nullable = false, length = 100)
 	public String getEmail() {
 		return email;
 	}
@@ -51,7 +52,6 @@ public class User implements Serializable{
 		this.email = email;
 	}
 
-	@Column(name = "COMPOSITEKEY", nullable = false, length = 50)
 	public String getCompositeKey() {
 		return compositeKey;
 	}
@@ -59,6 +59,5 @@ public class User implements Serializable{
 	public void setCompositeKey(String compositeKey) {
 		this.compositeKey = compositeKey;
 	}
-
 }
 

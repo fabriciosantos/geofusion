@@ -48,8 +48,8 @@ public class DefaultSurveyService implements SurveyService{
 			logger.error(e.getMessage());
             return new FailureResponseBuilder().toResponse(e);
 		}
-}
-
+	}
+	
 	@Override
 	public Response findOne(String compositeKey) {
 		try {
@@ -64,4 +64,4 @@ public class DefaultSurveyService implements SurveyService{
 			return new FailureResponseBuilder().toResponse(e);
 		}
 	}	
- }
+}

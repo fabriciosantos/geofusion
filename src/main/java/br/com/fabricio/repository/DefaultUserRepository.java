@@ -2,7 +2,7 @@ package br.com.fabricio.repository;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
+import java.util.UUID;
 
 import javax.inject.Named;
 import javax.persistence.EntityManager;
@@ -89,11 +89,7 @@ public class DefaultUserRepository implements UserRepository{
 	
 
 	private String compositeKey() {
-		String key = "";
-		Random random = new Random();
-		for (int i = 0; i < 20; i++) {
-			key += String.valueOf(random.nextInt(20));
-		}		
-		return key;
+		String uuid = UUID.randomUUID().toString();
+		return uuid;
 	}
 }

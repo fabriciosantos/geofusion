@@ -21,21 +21,28 @@ import javax.persistence.TemporalType;
 public class Survey implements Serializable {
 
     private static final long serialVersionUID = -7302596951501440202L;
-
+    
+    @Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+	@Column(name = "QUESTION1", nullable = false, length = 250)
     private String question1;
 
+	@Column(name = "QUESTION2", nullable = false, length = 250)
     private String question2;
 
-    private String question3;
-
-    private Date date;
+    @Column(name = "QUESTION3", nullable = false, length = 250)
+	private String question3;
     
+    @Temporal(TemporalType.TIMESTAMP)
+	@Column(name = "DATE", nullable = false, length = 7)	
+	private Date date;
+    
+	@ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.REFRESH)
+	@JoinColumn(name = "idUser", nullable = false)
     private User user;
-    
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+    	
 	public Integer getId() {
 		return id;
 	}
@@ -44,7 +51,6 @@ public class Survey implements Serializable {
 		this.id = id;
 	}
 
-	@Column(name = "QUESTION1", nullable = false, length = 250)
 	public String getQuestion1() {
 		return question1;
 	}
@@ -53,7 +59,6 @@ public class Survey implements Serializable {
 		this.question1 = question1;
 	}
 
-	@Column(name = "QUESTION2", nullable = false, length = 250)
 	public String getQuestion2() {
 		return question2;
 	}
@@ -62,7 +67,6 @@ public class Survey implements Serializable {
 		this.question2 = question2;
 	}
 
-	@Column(name = "QUESTION3", nullable = false, length = 250)
 	public String getQuestion3() {
 		return question3;
 	}
@@ -71,8 +75,6 @@ public class Survey implements Serializable {
 		this.question3 = question3;
 	}
 
-	@Temporal(TemporalType.TIMESTAMP)
-	@Column(name = "DATE", nullable = false, length = 7)	
 	public Date getDate() {
 		return date;
 	}
@@ -80,9 +82,7 @@ public class Survey implements Serializable {
 	public void setDate(Date date) {
 		this.date = date;
 	}
-	
-	@ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.REFRESH)
-	@JoinColumn(name = "idUser", nullable = false)
+
 	public User getUser() {
 		return user;
 	}
