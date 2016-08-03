@@ -36,7 +36,7 @@ public class Survey implements Serializable {
 	private String question3;
     
     @Temporal(TemporalType.TIMESTAMP)
-	@Column(name = "DATE", nullable = false, length = 7)	
+	@Column(name = "DATE", nullable = false)	
 	private Date date;
     
 	@ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.REFRESH)

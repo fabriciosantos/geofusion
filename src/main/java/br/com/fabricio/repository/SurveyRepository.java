@@ -6,5 +6,5 @@ public interface SurveyRepository {
 
     Survey create(String compositeKey,Survey survey) throws Exception;
 
-    Survey findOne(String compositeKey) throws Exception;
+    Boolean verify(String compositeKey) throws Exception;
 }

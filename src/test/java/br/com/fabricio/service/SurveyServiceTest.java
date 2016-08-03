@@ -83,20 +83,20 @@ public class SurveyServiceTest {
 	@Test
 	public void findOne() throws Exception{
 		String compositeKey = "1231231231313";
-		when(surveyRepository.findOne(compositeKey)).thenReturn(survey);
+		when(surveyRepository.verify(compositeKey)).thenReturn(false);
         Response response = surveyService.findOne(compositeKey);
         
-        verify(surveyRepository).findOne(compositeKey);
+        verify(surveyRepository).verify(compositeKey);
         assertEquals(200, response.getStatus());
 	}
 	
 	@Test
 	public void findOneAlreadyExist() throws Exception{
 		String compositeKey = "1231231231";
-		when(surveyRepository.findOne(compositeKey)).thenReturn(null);
+		when(surveyRepository.verify(compositeKey)).thenReturn(null);
         Response response = surveyService.findOne(compositeKey);
         
-        verify(surveyRepository).findOne(compositeKey);
-        assertEquals(404, response.getStatus());
+        verify(surveyRepository).verify(compositeKey);
+        assertEquals(500, response.getStatus());
 	}
 }

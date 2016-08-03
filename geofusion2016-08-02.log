@@ -98,3 +98,103 @@
                 Email ja cadastrado 
 17:58:10.124 [qtp305334212-32] ERROR b.c.f.service.DefaultUserService -
                 Email ja cadastrado 
+18:01:45.156 [qtp1849546190-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+18:01:50.077 [qtp1849546190-37] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+18:01:50.099 [qtp1849546190-36] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+18:01:50.100 [qtp1849546190-36] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+18:01:50.100 [qtp1849546190-36] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+18:09:23.639 [qtp39476366-36] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+18:09:28.985 [qtp39476366-36] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+18:09:29.007 [qtp39476366-35] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+18:09:29.008 [qtp39476366-35] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+18:09:29.008 [qtp39476366-35] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+21:37:18.331 [qtp653745564-33] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+21:37:22.003 [qtp653745564-33] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+21:37:22.025 [qtp653745564-37] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+21:37:22.026 [qtp653745564-37] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+21:37:22.026 [qtp653745564-37] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+22:05:22.602 [qtp26338900-35] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+22:05:28.034 [qtp26338900-35] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+22:05:28.059 [qtp26338900-37] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+22:05:28.059 [qtp26338900-37] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+22:05:28.060 [qtp26338900-37] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+22:35:03.297 [qtp1869385029-34] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+22:35:07.090 [qtp1869385029-34] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+22:35:07.112 [qtp1869385029-38] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+22:35:07.113 [qtp1869385029-38] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+22:35:07.113 [qtp1869385029-38] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+22:37:06.237 [qtp1223820621-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+22:37:10.367 [qtp1223820621-37] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+22:37:10.391 [qtp1223820621-35] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+22:37:10.392 [qtp1223820621-35] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+22:37:10.392 [qtp1223820621-35] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+23:18:35.061 [qtp88094983-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+23:18:38.922 [qtp88094983-38] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+23:18:38.946 [qtp88094983-37] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+23:18:38.947 [qtp88094983-37] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+23:18:38.948 [qtp88094983-37] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+23:23:59.531 [qtp1501382858-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+23:24:03.245 [qtp1501382858-37] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+23:24:03.268 [qtp1501382858-35] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+23:24:03.269 [qtp1501382858-35] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+23:24:03.270 [qtp1501382858-35] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+23:35:48.396 [qtp406265225-34] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+23:35:52.071 [qtp406265225-34] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+23:35:52.095 [qtp406265225-38] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+23:35:52.096 [qtp406265225-38] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+23:35:52.097 [qtp406265225-38] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+23:44:38.977 [qtp1752894940-36] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+23:44:42.662 [qtp1752894940-36] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+23:44:42.687 [qtp1752894940-38] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+23:44:42.688 [qtp1752894940-38] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+23:44:42.688 [qtp1752894940-38] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 

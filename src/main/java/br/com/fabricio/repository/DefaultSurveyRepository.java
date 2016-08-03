@@ -1,6 +1,6 @@
 package br.com.fabricio.repository;
 
-import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import javax.inject.Named;
@@ -28,10 +28,11 @@ public class DefaultSurveyRepository implements SurveyRepository {
     @Override
 	public Survey create(String compositeKey, Survey survey) throws Exception {
 		try {
-			if (findOne(compositeKey) != null) {
+			if (verify(compositeKey)) {
 	    	   logger.error("Pesquisa ja realizada.");
 	           throw new StatusException(Status.BAD_REQUEST.getStatusCode(), "Pesquisa ja realizada.");
 			}
+			survey.setDate(new Date());
 			entityManager.persist(survey);
 			logger.debug("Pesquisa persistida.");
 			return survey;
@@ -42,45 +43,40 @@ public class DefaultSurveyRepository implements SurveyRepository {
 	}
 	
 	@Override
-	public Survey findOne(String compositeKey) throws Exception {
+	public Boolean verify(String compositeKey) throws Exception {
 		try {
+			if (!getUser(compositeKey)) {
+				logger.error("Usuario não encontrado.");
+				throw new StatusException(Status.NOT_FOUND.getStatusCode(), "Usuario não encontrado.");
+			}
 			
-			List<User> list = getUser(compositeKey);
+			Query query = entityManager.createQuery("SELECT s FROM Survey s INNER JOIN s.user u WHERE u.compositeKey = :compositeKey");
+			query.setParameter("compositeKey", compositeKey);
+	        @SuppressWarnings("unchecked")
+			List<Survey> surveys = query.getResultList();
 			
-			if (list == null) {
-				logger.error("Usuario não cadastrado.");
-		        throw new StatusException(Status.BAD_REQUEST.getStatusCode(), "Usuario não cadastrado.");
-			}    	
-						
-			int idUser = list.get(0).getId();
-			
-			Query query = entityManager.createQuery("SELECT s FROM Survey s INNER JOIN s.User u WHERE u.idUser = :id");
-			query.setParameter("id", idUser);
-	        Survey survey = (Survey) query.getSingleResult();
-			
-	        if (survey != null) {
+	        if (surveys == null ) {
 	    	   logger.error("Pesquisa ja realizada.");
-	           throw new StatusException(Status.BAD_REQUEST.getStatusCode(), "Pesquisa ja realizada.");
+	           return true;
 	        }	    
 	        logger.debug("Pesquisa não realizada.");
-	        return survey;
+	        return false;
 		} catch (Exception e) {
 			logger.error(e.getMessage());
 			throw e;
 		}
 	}
 	
-	@SuppressWarnings({ "unchecked", "rawtypes" })
-	private List<User> getUser(String compositeKey) {
+	private boolean getUser(String compositeKey) {
         Query query = entityManager.createQuery("SELECT u FROM User u WHERE u.compositeKey = :compositeKey ");
         query.setParameter("compositeKey", compositeKey);
         
-        List<User> list =  query.getResultList();
+        @SuppressWarnings("unchecked")
+		List<User> list =  query.getResultList();
         if (list == null) {
-            list = new ArrayList();
-            return list;
+        	return false;
         }
-        return list;
+        return true;
 	}
 	
 }

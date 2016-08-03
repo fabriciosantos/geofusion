@@ -51,14 +51,13 @@ public class DefaultSurveyService implements SurveyService{
 	}
 	
 	@Override
-	public Response findOne(String compositeKey) {
+	public Response verify(String compositeKey) {
 		try {
-			Survey survey = surveyRepository.findOne(compositeKey);
-            if (survey == null) {
-                logger.error("Service : Usuario não encontrado");
-                return new FailureResponseBuilder().toResponse(new StatusException(Status.NOT_FOUND.getStatusCode(), "Service : Pesquisa não encontrado"));
+		     if (surveyRepository.verify(compositeKey)) {
+                logger.error("Service : Pesquisa já foi realizada por esse email");
+                return new FailureResponseBuilder().toResponse(new StatusException(Status.BAD_REQUEST.getStatusCode(), "Service : Pesquisa já foi realizada por esse email"));
             }
-            return Response.ok().entity(survey).build();
+            return Response.ok().build();
 		} catch (Exception e) {
 			logger.equals(e.getMessage());
 			return new FailureResponseBuilder().toResponse(e);

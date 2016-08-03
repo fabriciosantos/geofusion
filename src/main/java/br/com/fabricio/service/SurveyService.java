@@ -23,6 +23,6 @@ public interface SurveyService {
     @GET
     @Path("/{compositeKey}")
     @Produces("application/json")
-    Response findOne(@PathParam("compositeKey")String compositeKey);
+    Response verify(@PathParam("compositeKey")String compositeKey);
 
 }

@@ -15,7 +15,7 @@ app.controller('surveyController', ['$scope', 'surveyFactory', function($scope, 
 	}
 	
 	$scope.updateUser = function() {
-		surveyFactory.updateUser($scope.user).then(function (data) {
+		surveyFactory.updateUser($scope.key[1], $scope.user).then(function (data) {
 			return data;
 		}).catch(function (data) {
 	         alert(data);
@@ -23,17 +23,17 @@ app.controller('surveyController', ['$scope', 'surveyFactory', function($scope, 
 	};
 	
 	$scope.verify = function(){
-		surveyFactory.verify($scope.key).then(function (data){
+		surveyFactory.verify($scope.key[1]).then(function (data){
 			return data;
 		}).catch(function(data){
-			(data.status == 404) ? alert("Email ja respondei a pesquisa.") : alert("Cadastre o email denovo.");
-			alert(data);
+			(data.status == 400) ? alert("Email ja respondei a pesquisa.") : alert("Cadastre o email denovo.");
 			location.href = "index.html";
 		});
 	};
 	
-	$scope.saveSurvey = function() {
-		surveyFactory.safeSurvey($scope.survey).then(function (data) {
+	$scope.save = function() {
+		surveyFactory.save($scope.key[1], $scope.survey).then(function (data) {
+			$scope.updateUser();
 			return data;
 		}).catch(function (data) {
 			(data.status == 400) ? alert("Email ja cadastrado") : alert("Chave não condiz com email.");
