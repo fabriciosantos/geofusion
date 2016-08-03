@@ -26,21 +26,21 @@ public class Survey implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-	@Column(name = "QUESTION1", nullable = false, length = 250)
+	@Column(name = "question1", nullable = false, length = 250)
     private String question1;
 
-	@Column(name = "QUESTION2", nullable = false, length = 250)
+	@Column(name = "question2", nullable = false, length = 250)
     private String question2;
 
-    @Column(name = "QUESTION3", nullable = false, length = 250)
+    @Column(name = "question3", nullable = false, length = 250)
 	private String question3;
     
     @Temporal(TemporalType.TIMESTAMP)
-	@Column(name = "DATE", nullable = false)	
+	@Column(name = "date_register", nullable = false)	
 	private Date date;
     
 	@ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.REFRESH)
-	@JoinColumn(name = "idUser", nullable = false)
+	@JoinColumn(name = "id_user", nullable = false)
     private User user;
     	
 	public Integer getId() {

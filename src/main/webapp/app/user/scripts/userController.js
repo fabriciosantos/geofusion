@@ -15,6 +15,5 @@ app.controller('userController', ['$scope', 'userFactory', function($scope, user
 	     }).catch(function (data) {
 	    	 (data.status == 400) ? alert("Email já cadastrado.") : alert("Por favor digite novamento o seu email.");
 	     });
-	};
-	
+	};	
 }]);

@@ -30,13 +30,7 @@ public class SendEmail {
 	}
 	public void sendMail(String from, String to, String subject, String message) {
 		Properties props = new Properties();
-                // quem estiver utilizando um SERVIDOR PROXY descomente essa parte e atribua as propriedades do SERVIDOR PROXY utilizado
-                /*
-                props.setProperty("proxySet","true");
-                props.setProperty("socksProxyHost","192.168.155.1"); // IP do Servidor Proxy
-                props.setProperty("socksProxyPort","1080");  // Porta do servidor Proxy
-                */
-		props.put("mail.transport.protocol", "smtp"); //define protocolo de envio como SMTP
+      	props.put("mail.transport.protocol", "smtp"); //define protocolo de envio como SMTP
 		props.put("mail.smtp.starttls.enable","true"); 
 		props.put("mail.smtp.host", mailSMTPServer); //server SMTP do GMAIL
 		props.put("mail.smtp.auth", "true"); //ativa autenticacao
@@ -65,7 +59,7 @@ public class SendEmail {
 			//Setando o assunto
 			msg.setSubject(subject);
 			//Setando o conteúdo/corpo do email
-			msg.setContent(message,"text/plain");
+			msg.setContent(message, "text/html; charset=utf-8");
 		} catch (Exception e) {
 			System.out.println(">> Erro: Completar Mensagem");
 			e.printStackTrace();

@@ -8,13 +8,13 @@ public class UserServiceTestIT {
 	
     @Test
     public void create() {
-    	String json = "{\"name\":\"joao\",\"email\":\"carta@test.com\",\"compositeKey\":\"3625272573843\"}";
+    	String json = "{\"id\":\"\",\"name\":\"joao\",\"email\":\"carta@test.com\",\"compositeKey\":\"3625272573843\"}";
     	TestUtil.restCreate(json, path);
     }
     
     @Test
     public void createException(){
-    	String json = "{\"name\":\"joao\",\"email\":\"carta@test.com\",\"compositeKey\":\"3625272573843\"}";
+    	String json = "{\"id\":\"\",\"name\":\"joao\",\"email\":\"carta@test.com\",\"compositeKey\":\"3625272573843\"}";
         TestUtil.restCreateBadRequest(json, path);
     }
 

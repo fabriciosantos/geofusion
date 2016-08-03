@@ -4,6 +4,9 @@ import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 
@@ -19,6 +22,8 @@ public class SurveyRepositoryTest {
 	
 	public static EntityManager entityManager;
 	public static DefaultSurveyRepository defaultSurveyRepository;
+	private User user;
+	private Survey survey;
 		
 	@BeforeClass
 	public static void mockClasses(){
@@ -29,13 +34,13 @@ public class SurveyRepositoryTest {
 	
     @Before
     public void init() {
-    	User user = new User();
+    	user = new User();
     	user.setId(1);
     	user.setName("Joao");
     	user.setEmail("email@email.com");
     	user.setCompositeKey("9812365342");
     	
-    	Survey survey = new Survey();
+    	survey = new Survey();
     	survey.setId(1);
     	survey.setQuestion1("question1");
     	survey.setQuestion2("question2");
@@ -43,51 +48,99 @@ public class SurveyRepositoryTest {
     	survey.setUser(user);
     }
 
-    /*@Test
+    @Test
     public void create() throws Exception {
-    	Survey survey = null;
+    	List<User> listUser = new ArrayList<>();
+    	listUser.add(user);
     	
-    	Query query = mock(Query.class);
-    	when(entityManager.createQuery(Matchers.anyString())).thenReturn(query);
-    	when(query.getSingleResult()).thenReturn(survey);
+    	List<Survey> listSurvey = null;
     	
-    	Survey surveyReturn = defaultSurveyRepository.create(Matchers.anyString(), survey);
+    	Query queryUser = mock(Query.class);
+    	when(entityManager.createQuery("SELECT u FROM User u WHERE u.compositeKey = :compositeKey ")).thenReturn(queryUser);
+    	when(queryUser.getResultList()).thenReturn(listUser);
+    	
+    	Query querySurvey = mock(Query.class);
+    	when(entityManager.createQuery("SELECT s FROM Survey s INNER JOIN s.user u WHERE u.compositeKey = :compositeKey")).thenReturn(querySurvey);
+    	when(querySurvey.getResultList()).thenReturn(listSurvey);
+    	    		
+    	Survey surveyReturn = defaultSurveyRepository.create(user.getCompositeKey(), survey);
     	assertEquals(survey, surveyReturn);
     }
 
     @Test(expected=Exception.class)
     public void createAlreadyExist() throws Exception {
-    	Survey survey = new Survey();
+    	List<User> listUser = new ArrayList<>();
+    	listUser.add(user);
     	
-    	Query query = mock(Query.class);
-    	when(entityManager.createQuery(Matchers.anyString())).thenReturn(query);
-    	when(query.getSingleResult()).thenReturn(survey);
+    	List<Survey> listSurvey = new ArrayList<>();
+    	listSurvey.add(survey);
+    	
+    	Query queryUser = mock(Query.class);
+    	when(entityManager.createQuery("SELECT u FROM User u WHERE u.compositeKey = :compositeKey ")).thenReturn(queryUser);
+    	when(queryUser.getResultList()).thenReturn(listUser);
+    	
+    	Query querySurvey = mock(Query.class);
+    	when(entityManager.createQuery("SELECT s FROM Survey s INNER JOIN s.user u WHERE u.compositeKey = :compositeKey")).thenReturn(querySurvey);
+    	when(querySurvey.getResultList()).thenReturn(listSurvey);
     	
     	Survey surveyReturn = defaultSurveyRepository.create(Matchers.anyString(), survey);
     	assertEquals(survey, surveyReturn);
     }
     
     @Test
-    public void findOne() throws Exception {
-    	Survey survey = null;
+    public void verify() throws Exception {
+    	List<User> listUser = new ArrayList<>();
+    	listUser.add(user);
     	
-    	Query query = mock(Query.class);
-    	when(entityManager.createQuery(Matchers.anyString())).thenReturn(query);
-    	when(query.getSingleResult()).thenReturn(survey);
+    	List<Survey> listSurvey = null;
     	
-    	Survey surveyReturn = defaultSurveyRepository.findOne(Matchers.anyString());
-    	assertEquals(survey, surveyReturn);
+    	Query queryUser = mock(Query.class);
+    	when(entityManager.createQuery("SELECT u FROM User u WHERE u.compositeKey = :compositeKey ")).thenReturn(queryUser);
+    	when(queryUser.getResultList()).thenReturn(listUser);
+    	
+    	Query querySurvey = mock(Query.class);
+    	when(entityManager.createQuery("SELECT s FROM Survey s INNER JOIN s.user u WHERE u.compositeKey = :compositeKey")).thenReturn(querySurvey);
+    	when(querySurvey.getResultList()).thenReturn(listSurvey);
+    	    		
+    	boolean verify = defaultSurveyRepository.verify(user.getCompositeKey());
+    	assertEquals(false, verify);
     }
 
+    @Test
+    public void verifyAlreadyExist() throws Exception {
+    	List<User> listUser = new ArrayList<>();
+    	listUser.add(user);
+    	
+    	List<Survey> listSurvey = new ArrayList<>();
+    	listSurvey.add(survey);
+    	
+    	Query queryUser = mock(Query.class);
+    	when(entityManager.createQuery("SELECT u FROM User u WHERE u.compositeKey = :compositeKey ")).thenReturn(queryUser);
+    	when(queryUser.getResultList()).thenReturn(listUser);
+    	
+    	Query querySurvey = mock(Query.class);
+    	when(entityManager.createQuery("SELECT s FROM Survey s INNER JOIN s.user u WHERE u.compositeKey = :compositeKey")).thenReturn(querySurvey);
+    	when(querySurvey.getResultList()).thenReturn(listSurvey);
+    	
+    	boolean verify = defaultSurveyRepository.verify(Matchers.anyString());
+    	assertEquals(true, verify);
+    }    
+    
     @Test(expected=Exception.class)
-    public void findOneAlreadyExist() throws Exception {
-    	Survey survey = new Survey();
+    public void verifyUserNotFound() throws Exception {
+    	List<User> listUser = null;
     	
-    	Query query = mock(Query.class);
-    	when(entityManager.createQuery(Matchers.anyString())).thenReturn(query);
-    	when(query.getSingleResult()).thenReturn(survey);
+    	List<Survey> listSurvey = null;
     	
-    	Survey surveyReturn = defaultSurveyRepository.findOne(Matchers.anyString());
-    	assertEquals(survey, surveyReturn);
-    }  */  
+    	Query queryUser = mock(Query.class);
+    	when(entityManager.createQuery("SELECT u FROM User u WHERE u.compositeKey = :compositeKey ")).thenReturn(queryUser);
+    	when(queryUser.getResultList()).thenReturn(listUser);
+    	
+    	Query querySurvey = mock(Query.class);
+    	when(entityManager.createQuery("SELECT s FROM Survey s INNER JOIN s.user u WHERE u.compositeKey = :compositeKey")).thenReturn(querySurvey);
+    	when(querySurvey.getResultList()).thenReturn(listSurvey);
+    	
+    	boolean verify = defaultSurveyRepository.verify(Matchers.anyString());
+    	assertEquals(true, verify);
+    }  
 }

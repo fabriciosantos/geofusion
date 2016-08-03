@@ -18,30 +18,33 @@ import org.apache.cxf.jaxrs.impl.UriBuilderImpl;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.mockito.Matchers;
 
 import br.com.fabricio.model.Survey;
 import br.com.fabricio.model.User;
 import br.com.fabricio.repository.SurveyRepository;
+import br.com.fabricio.repository.UserRepository;
 import br.com.fabricio.util.StatusException;
 
 public class SurveyServiceTest {
 
 	private static SurveyRepository surveyRepository;
 	private static SurveyService surveyService;
+	private static UserRepository userRepository;
+	private User user;
 	private Survey survey;
 	
 	@BeforeClass
 	public static void mockClasses(){
 		surveyRepository = mock(SurveyRepository.class);
+		userRepository = mock(UserRepository.class);
 	    ValidatorFactory validatorFactory = Validation.buildDefaultValidatorFactory();
 	    Validator validator = validatorFactory.getValidator();
-	    surveyService = new DefaultSurveyService(surveyRepository, validator);
+	    surveyService = new DefaultSurveyService(surveyRepository, userRepository, validator);
 	}
 
 	@Before
 	public void init() {
-		User user = new User();
+		user = new User();
 		user.setId(1);
 		user.setEmail("Email@test.com.br");
 		user.setName("joaõ");
@@ -58,43 +61,42 @@ public class SurveyServiceTest {
 		
 	@Test
 	public void create() throws Exception{
-		String compositeKey = "1231231231313";
-		when(surveyRepository.create(compositeKey, survey)).thenReturn(survey);
+		when(surveyRepository.create(user.getCompositeKey(), survey)).thenReturn(survey);
         UriInfo uriInfo = mock(UriInfo.class);
-        when(uriInfo.getRequestUriBuilder()).thenReturn(new UriBuilderImpl(new URI("/geofusion/rest/Survey/")));
-        Response response = surveyService.create(uriInfo, compositeKey, survey);
+        when(uriInfo.getRequestUriBuilder()).thenReturn(new UriBuilderImpl(new URI("")));
+        when(userRepository.update(user)).thenReturn(user);
+        Response response = surveyService.create(uriInfo, user.getCompositeKey(), survey);
         
-        verify(surveyRepository).create(compositeKey, survey);
+        verify(surveyRepository).create(user.getCompositeKey(), survey);
         assertEquals(201, response.getStatus());
 	}
 	
 	@Test
 	public void createAlreadyExist() throws Exception{
-		String compositeKey = "1231231231313";
-		when(surveyRepository.create(compositeKey, survey)).thenReturn(null);
+		when(surveyRepository.create(user.getCompositeKey(), survey)).thenReturn(survey);
         UriInfo uriInfo = mock(UriInfo.class);
-        when(uriInfo.getRequestUriBuilder()).thenReturn(new UriBuilderImpl(new URI("/geofusion/rest/Survey/")));
-        Response response = surveyService.create(uriInfo, compositeKey, survey);
-        
-        verify(surveyRepository).create(compositeKey, survey);
-        assertEquals(500, response.getStatus());
+        when(uriInfo.getRequestUriBuilder()).thenReturn(new UriBuilderImpl(new URI("")));
+        when(userRepository.update(user)).thenThrow(new StatusException(Status.NOT_FOUND.getStatusCode(), "Pessoa não encontrado."));
+        Response response = surveyService.create(uriInfo, user.getCompositeKey(), survey);
+      
+        assertEquals(404, response.getStatus());
 	}
 	
 	@Test
-	public void findOne() throws Exception{
+	public void verifySurvey() throws Exception{
 		String compositeKey = "1231231231313";
 		when(surveyRepository.verify(compositeKey)).thenReturn(false);
-        Response response = surveyService.findOne(compositeKey);
+        Response response = surveyService.verify(compositeKey);
         
         verify(surveyRepository).verify(compositeKey);
         assertEquals(200, response.getStatus());
 	}
 	
 	@Test
-	public void findOneAlreadyExist() throws Exception{
+	public void verifyAlreadyExist() throws Exception{
 		String compositeKey = "1231231231";
 		when(surveyRepository.verify(compositeKey)).thenReturn(null);
-        Response response = surveyService.findOne(compositeKey);
+        Response response = surveyService.verify(compositeKey);
         
         verify(surveyRepository).verify(compositeKey);
         assertEquals(500, response.getStatus());

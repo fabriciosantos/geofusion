@@ -1,0 +1,604 @@
+18:48:09.630 [qtp1013700132-35] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+18:48:13.165 [qtp1013700132-35] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+18:48:13.189 [qtp1013700132-38] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+18:48:13.190 [qtp1013700132-38] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+18:48:13.190 [qtp1013700132-38] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+18:50:11.176 [qtp1747862060-34] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+18:50:15.035 [qtp1747862060-34] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+18:50:15.057 [qtp1747862060-37] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+18:50:15.057 [qtp1747862060-37] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+18:50:15.058 [qtp1747862060-37] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+18:53:22.351 [qtp1212782393-33] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+18:53:25.963 [qtp1212782393-33] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+18:53:25.986 [qtp1212782393-36] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+18:53:25.987 [qtp1212782393-36] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+18:53:25.988 [qtp1212782393-36] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+18:57:24.868 [qtp2019087133-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+18:57:28.522 [qtp2019087133-38] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+18:57:28.543 [qtp2019087133-36] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+18:57:28.543 [qtp2019087133-36] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+18:57:28.544 [qtp2019087133-36] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+18:58:50.064 [qtp1360125564-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+18:58:53.707 [qtp1360125564-37] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+18:58:53.729 [qtp1360125564-35] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+18:58:53.729 [qtp1360125564-35] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+18:58:53.730 [qtp1360125564-35] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+19:02:34.219 [qtp475871799-36] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+19:02:37.886 [qtp475871799-36] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+19:02:37.914 [qtp475871799-33] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:02:37.914 [qtp475871799-33] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:02:37.915 [qtp475871799-33] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+19:03:40.629 [qtp2103044456-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+19:03:44.832 [qtp2103044456-37] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+19:03:44.863 [qtp2103044456-31] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:03:44.863 [qtp2103044456-31] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:03:44.864 [qtp2103044456-31] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+19:06:10.215 [qtp962931248-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+19:06:13.924 [qtp962931248-37] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+19:06:13.954 [qtp962931248-38] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:06:13.955 [qtp962931248-38] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:06:13.955 [qtp962931248-38] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+19:07:25.988 [qtp1620368915-35] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+19:07:30.135 [qtp1620368915-35] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+19:07:30.160 [qtp1620368915-38] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:07:30.161 [qtp1620368915-38] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:07:30.162 [qtp1620368915-38] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+19:10:32.017 [qtp1871838170-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+19:10:35.653 [qtp1871838170-38] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+19:10:35.676 [qtp1871838170-35] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:10:35.677 [qtp1871838170-35] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:10:35.677 [qtp1871838170-35] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+19:11:57.516 [qtp1068781783-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:11:57.522 [qtp1068781783-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:11:57.563 [qtp1068781783-37] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+19:11:57.581 [qtp1068781783-37] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+19:11:57.585 [qtp1068781783-37] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+19:11:57.789 [qtp1068781783-36] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+19:12:01.719 [qtp1068781783-36] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+19:12:01.740 [qtp1068781783-35] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:12:01.740 [qtp1068781783-35] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:12:01.741 [qtp1068781783-35] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+19:12:46.619 [qtp65465460-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:12:46.627 [qtp65465460-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:12:46.672 [qtp65465460-37] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+19:12:46.686 [qtp65465460-37] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+19:12:46.690 [qtp65465460-37] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+19:12:46.880 [qtp65465460-33] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+19:12:50.795 [qtp65465460-33] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+19:12:50.815 [qtp65465460-38] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:12:50.815 [qtp65465460-38] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:12:50.816 [qtp65465460-38] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+19:14:50.132 [qtp1586519852-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:14:50.140 [qtp1586519852-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:14:50.184 [qtp1586519852-38] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+19:14:50.197 [qtp1586519852-38] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+19:14:50.201 [qtp1586519852-38] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+19:14:50.401 [qtp1586519852-36] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:14:50.401 [qtp1586519852-36] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:14:50.409 [qtp1586519852-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:14:50.409 [qtp1586519852-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:14:50.409 [qtp1586519852-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:14:50.410 [qtp1586519852-36] ERROR b.c.f.service.DefaultSurveyService -
+                Pesquisa ja realizada. 
+19:14:50.441 [qtp1586519852-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+19:14:54.627 [qtp1586519852-37] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+19:14:54.644 [qtp1586519852-38] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:14:54.645 [qtp1586519852-38] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:14:54.645 [qtp1586519852-38] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+19:15:58.100 [qtp303638020-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:15:58.107 [qtp303638020-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:15:58.147 [qtp303638020-37] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+19:15:58.162 [qtp303638020-37] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+19:15:58.166 [qtp303638020-37] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+19:15:58.410 [qtp303638020-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:15:58.410 [qtp303638020-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:15:58.416 [qtp303638020-38] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:15:58.417 [qtp303638020-38] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:15:58.417 [qtp303638020-38] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:15:58.417 [qtp303638020-38] ERROR b.c.f.service.DefaultSurveyService -
+                Pesquisa ja realizada. 
+19:15:58.447 [qtp303638020-35] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+19:16:02.565 [qtp303638020-35] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+19:16:02.584 [qtp303638020-36] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:16:02.585 [qtp303638020-36] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:16:02.585 [qtp303638020-36] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+19:17:19.429 [qtp303638020-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:17:19.436 [qtp303638020-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:17:19.481 [qtp303638020-38] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+19:17:19.500 [qtp303638020-38] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+19:17:19.505 [qtp303638020-38] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+19:17:19.731 [qtp303638020-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:17:19.731 [qtp303638020-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:17:19.740 [qtp303638020-37] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:17:19.740 [qtp303638020-37] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:17:19.740 [qtp303638020-37] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:17:19.741 [qtp303638020-37] ERROR b.c.f.service.DefaultSurveyService -
+                Pesquisa ja realizada. 
+19:17:19.765 [qtp303638020-36] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:17:19.765 [qtp303638020-36] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:17:19.771 [qtp303638020-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:17:19.771 [qtp303638020-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:17:19.771 [qtp303638020-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:17:19.772 [qtp303638020-36] ERROR b.c.f.service.DefaultSurveyService -
+                Pesquisa ja realizada. 
+19:17:19.835 [qtp303638020-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+19:17:23.717 [qtp303638020-38] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+19:17:23.735 [qtp303638020-35] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:17:23.735 [qtp303638020-35] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:17:23.736 [qtp303638020-35] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+19:21:18.794 [qtp398777435-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:21:18.802 [qtp398777435-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:21:18.845 [qtp398777435-38] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+19:21:18.862 [qtp398777435-38] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+19:21:18.866 [qtp398777435-38] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+19:21:19.057 [qtp398777435-37] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:21:19.058 [qtp398777435-37] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa já foi realizada por esse email 
+19:21:19.157 [qtp398777435-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:21:19.157 [qtp398777435-36] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa já foi realizada por esse email 
+19:21:19.187 [qtp398777435-35] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:21:19.188 [qtp398777435-35] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa já foi realizada por esse email 
+19:21:19.242 [qtp398777435-36] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:21:19.244 [qtp398777435-36] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:21:19.251 [qtp398777435-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:21:19.251 [qtp398777435-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:21:19.251 [qtp398777435-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:21:19.252 [qtp398777435-36] ERROR b.c.f.service.DefaultSurveyService -
+                Pesquisa ja realizada. 
+19:21:19.289 [qtp398777435-35] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+19:21:22.973 [qtp398777435-35] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+19:21:22.990 [qtp398777435-37] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:21:22.991 [qtp398777435-37] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:21:22.992 [qtp398777435-37] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+19:23:19.832 [qtp266196910-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:23:19.839 [qtp266196910-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:23:19.886 [qtp266196910-38] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+19:23:19.902 [qtp266196910-38] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+19:23:19.906 [qtp266196910-38] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+19:23:20.133 [qtp266196910-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:23:20.134 [qtp266196910-36] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa já foi realizada por esse email 
+19:23:20.276 [qtp266196910-35] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:23:20.276 [qtp266196910-35] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa já foi realizada por esse email 
+19:23:20.301 [qtp266196910-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:23:20.301 [qtp266196910-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:23:20.308 [qtp266196910-37] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:23:20.308 [qtp266196910-37] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:23:20.308 [qtp266196910-37] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:23:20.309 [qtp266196910-37] ERROR b.c.f.service.DefaultSurveyService -
+                Pesquisa ja realizada. 
+19:23:20.344 [qtp266196910-36] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+19:23:24.045 [qtp266196910-36] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+19:23:24.065 [qtp266196910-35] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:23:24.065 [qtp266196910-35] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:23:24.066 [qtp266196910-35] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+19:28:31.842 [qtp1211297851-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:28:31.851 [qtp1211297851-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:28:31.901 [qtp1211297851-37] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+19:28:31.925 [qtp1211297851-37] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+19:28:31.931 [qtp1211297851-37] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+19:28:32.120 [qtp1211297851-38] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:28:32.121 [qtp1211297851-38] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa já foi realizada por esse email 
+19:28:32.209 [qtp1211297851-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:28:32.210 [qtp1211297851-36] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa já foi realizada por esse email 
+19:28:32.270 [qtp1211297851-36] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:28:32.271 [qtp1211297851-36] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:28:32.276 [qtp1211297851-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:28:32.276 [qtp1211297851-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:28:32.276 [qtp1211297851-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:28:32.277 [qtp1211297851-36] ERROR b.c.f.service.DefaultSurveyService -
+                Pesquisa ja realizada. 
+19:28:32.314 [qtp1211297851-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+19:28:36.387 [qtp1211297851-38] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+19:28:36.402 [qtp1211297851-37] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:28:36.402 [qtp1211297851-37] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:28:36.403 [qtp1211297851-37] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+19:30:19.329 [qtp1796154990-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:30:19.335 [qtp1796154990-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:30:19.375 [qtp1796154990-38] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+19:30:19.391 [qtp1796154990-38] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+19:30:19.394 [qtp1796154990-38] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+19:30:19.564 [qtp1796154990-37] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+19:30:19.643 [qtp1796154990-38] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:30:19.644 [qtp1796154990-38] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa já foi realizada por esse email 
+19:30:19.724 [qtp1796154990-34] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:30:19.724 [qtp1796154990-34] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:30:19.730 [qtp1796154990-34] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:30:19.731 [qtp1796154990-34] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:30:19.731 [qtp1796154990-34] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:30:19.731 [qtp1796154990-34] ERROR b.c.f.service.DefaultSurveyService -
+                Pesquisa ja realizada. 
+19:30:19.761 [qtp1796154990-35] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+19:30:23.976 [qtp1796154990-35] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+19:30:23.992 [qtp1796154990-37] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:30:23.993 [qtp1796154990-37] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:30:23.993 [qtp1796154990-37] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+19:32:10.856 [qtp2097992252-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:32:10.862 [qtp2097992252-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:32:10.900 [qtp2097992252-38] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+19:32:10.916 [qtp2097992252-38] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+19:32:10.919 [qtp2097992252-38] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+19:32:11.068 [qtp2097992252-35] ERROR b.c.f.r.DefaultSurveyRepository -
+                Usuario não encontrado. 
+19:32:11.068 [qtp2097992252-35] ERROR b.c.f.r.DefaultSurveyRepository -
+                Usuario não encontrado. 
+19:32:11.159 [qtp2097992252-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:32:11.159 [qtp2097992252-36] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa já foi realizada por esse email 
+19:32:11.221 [qtp2097992252-36] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:32:11.222 [qtp2097992252-36] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:32:11.227 [qtp2097992252-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:32:11.227 [qtp2097992252-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:32:11.227 [qtp2097992252-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:32:11.227 [qtp2097992252-36] ERROR b.c.f.service.DefaultSurveyService -
+                Pesquisa ja realizada. 
+19:32:11.256 [qtp2097992252-35] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+19:32:14.986 [qtp2097992252-35] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+19:32:15.003 [qtp2097992252-38] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:32:15.003 [qtp2097992252-38] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:32:15.003 [qtp2097992252-38] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+19:34:24.508 [qtp266196910-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:34:24.514 [qtp266196910-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:34:24.558 [qtp266196910-37] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+19:34:24.573 [qtp266196910-37] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+19:34:24.577 [qtp266196910-37] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+19:34:24.778 [qtp266196910-35] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+19:34:24.988 [qtp266196910-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:34:24.989 [qtp266196910-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:34:24.999 [qtp266196910-37] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:34:24.999 [qtp266196910-37] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:34:24.999 [qtp266196910-37] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:34:25.000 [qtp266196910-37] ERROR b.c.f.service.DefaultSurveyService -
+                Pesquisa ja realizada. 
+19:34:25.030 [qtp266196910-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:34:25.031 [qtp266196910-36] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa já foi realizada por esse email 
+19:34:25.072 [qtp266196910-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+19:34:28.871 [qtp266196910-38] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+19:34:28.886 [qtp266196910-37] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:34:28.887 [qtp266196910-37] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:34:28.887 [qtp266196910-37] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+19:36:57.652 [qtp1211627902-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:36:57.659 [qtp1211627902-38] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:36:57.699 [qtp1211627902-38] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+19:36:57.715 [qtp1211627902-38] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+19:36:57.718 [qtp1211627902-38] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+19:36:57.993 [qtp1211627902-36] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:36:57.994 [qtp1211627902-36] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:36:58.004 [qtp1211627902-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:36:58.005 [qtp1211627902-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:36:58.005 [qtp1211627902-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:36:58.006 [qtp1211627902-36] ERROR b.c.f.service.DefaultSurveyService -
+                Pesquisa ja realizada. 
+19:36:58.046 [qtp1211627902-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+19:37:01.848 [qtp1211627902-37] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+19:37:01.866 [qtp1211627902-36] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:37:01.866 [qtp1211627902-36] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:37:01.866 [qtp1211627902-36] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+19:39:00.491 [qtp1395740534-36] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:39:00.499 [qtp1395740534-36] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:39:00.551 [qtp1395740534-36] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+19:39:00.570 [qtp1395740534-36] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+19:39:00.574 [qtp1395740534-36] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+19:39:00.785 [qtp1395740534-37] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+19:39:00.931 [qtp1395740534-36] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:39:00.931 [qtp1395740534-36] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:39:00.941 [qtp1395740534-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:39:00.941 [qtp1395740534-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:39:00.942 [qtp1395740534-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:39:00.943 [qtp1395740534-36] ERROR b.c.f.service.DefaultSurveyService -
+                Pesquisa ja realizada. 
+19:39:00.972 [qtp1395740534-37] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:39:00.972 [qtp1395740534-37] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa já foi realizada por esse email 
+19:39:01.031 [qtp1395740534-33] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+19:39:05.197 [qtp1395740534-33] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+19:39:05.215 [qtp1395740534-37] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:39:05.215 [qtp1395740534-37] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:39:05.215 [qtp1395740534-37] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+19:40:10.572 [qtp1395740534-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:40:10.579 [qtp1395740534-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:40:10.624 [qtp1395740534-37] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+19:40:10.638 [qtp1395740534-37] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa persistida. 
+19:40:10.642 [qtp1395740534-37] DEBUG b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa criada. 
+19:40:10.818 [qtp1395740534-35] DEBUG b.c.f.r.DefaultSurveyRepository -
+                Pesquisa não realizada. 
+19:40:10.845 [qtp1395740534-36] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:40:10.846 [qtp1395740534-36] ERROR b.c.f.service.DefaultSurveyService -
+                Service : Pesquisa já foi realizada por esse email 
+19:40:10.936 [qtp1395740534-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa encontrada com sucesso. 
+19:40:10.937 [qtp1395740534-37] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa atualizada com sucesso. 
+19:40:10.943 [qtp1395740534-37] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:40:10.943 [qtp1395740534-37] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:40:10.943 [qtp1395740534-37] ERROR b.c.f.r.DefaultSurveyRepository -
+                Pesquisa ja realizada. 
+19:40:10.944 [qtp1395740534-37] ERROR b.c.f.service.DefaultSurveyService -
+                Pesquisa ja realizada. 
+19:40:10.976 [qtp1395740534-35] DEBUG b.c.f.r.DefaultUserRepository -
+                Pessoa persistida com sucesso. 
+19:40:14.753 [qtp1395740534-35] DEBUG b.c.f.service.DefaultUserService -
+                Service : Usuario criado. 
+19:40:14.774 [qtp1395740534-38] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:40:14.775 [qtp1395740534-38] ERROR b.c.f.r.DefaultUserRepository -
+                Email ja cadastrado 
+19:40:14.775 [qtp1395740534-38] ERROR b.c.f.service.DefaultUserService -
+                Email ja cadastrado 
+19:41:52.238 [qtp1161267215-32] ERROR b.c.f.service.DefaultSurveyService -
+                Could not open JPA EntityManager for transaction; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.GenericJDBCException: Could not open connection 
+19:41:52.590 [qtp1161267215-29] ERROR b.c.f.service.DefaultSurveyService -
+                Could not open JPA EntityManager for transaction; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.GenericJDBCException: Could not open connection 
+19:41:52.626 [qtp1161267215-30] ERROR b.c.f.service.DefaultUserService -
+                Could not open JPA EntityManager for transaction; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.GenericJDBCException: Could not open connection 
+19:41:52.656 [qtp1161267215-31] ERROR b.c.f.service.DefaultUserService -
+                Could not open JPA EntityManager for transaction; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.GenericJDBCException: Could not open connection 

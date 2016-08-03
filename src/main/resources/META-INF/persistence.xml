@@ -5,9 +5,6 @@
 	version="1.0">
 	<persistence-unit name="geofusion">
 		
-		<class>br.com.fabricio.model.User</class>
-		<class>br.com.fabricio.model.Survey</class>
-	
 		<properties>
 			<property name="hibernate.dialect" value="${db.dialect}" />
 			<property name="hibernate.hbm2ddl.auto" value="${db.auto}" />

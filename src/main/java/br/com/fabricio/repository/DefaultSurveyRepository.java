@@ -25,6 +25,12 @@ public class DefaultSurveyRepository implements SurveyRepository {
 	EntityManager entityManager;
     private static final Logger logger = LoggerFactory.getLogger(DefaultSurveyRepository.class);
 
+    /**
+	 * Esse método é responsável para inserir uma nova pesquisa no banco de dados. 
+	 * @param pesquisa Entidade que sera inserida
+	 * @return Survey persistidas.
+	 * @throws Exception
+	 */
     @Override
 	public Survey create(String compositeKey, Survey survey) throws Exception {
 		try {
@@ -42,10 +48,16 @@ public class DefaultSurveyRepository implements SurveyRepository {
 		}
 	}
 	
+    /**
+	 * Esse método é responsavel por verificar se exixte um passoa com a compositeKey referenciada e se a uma pesquisa com uma pessoa com esta conpositeKey
+	 * @param String compositeKey
+	 * @returnBoolean true se existe Survey, false se nao tiver Survey no banco de dados. 
+	 * @throws Exception
+	 */
 	@Override
 	public Boolean verify(String compositeKey) throws Exception {
 		try {
-			if (!getUser(compositeKey)) {
+			if (getUser(compositeKey) == false) {
 				logger.error("Usuario não encontrado.");
 				throw new StatusException(Status.NOT_FOUND.getStatusCode(), "Usuario não encontrado.");
 			}
@@ -55,7 +67,7 @@ public class DefaultSurveyRepository implements SurveyRepository {
 	        @SuppressWarnings("unchecked")
 			List<Survey> surveys = query.getResultList();
 			
-	        if (surveys == null ) {
+	        if (surveys != null && surveys.size() > 0) {
 	    	   logger.error("Pesquisa ja realizada.");
 	           return true;
 	        }	    
@@ -67,16 +79,21 @@ public class DefaultSurveyRepository implements SurveyRepository {
 		}
 	}
 	
+	/**
+	 * Esse método é responsavel por procurar uma pessoa com a compositeKey referenciada
+	 * @param String compositeKey.
+	 * @returnBoolean true se existe User, false se nao tiver User no banco de dados. 
+	 * @throws Exception
+	 */
 	private boolean getUser(String compositeKey) {
-        Query query = entityManager.createQuery("SELECT u FROM User u WHERE u.compositeKey = :compositeKey ");
+		Query query = entityManager.createQuery("SELECT u FROM User u WHERE u.compositeKey = :compositeKey ");
         query.setParameter("compositeKey", compositeKey);
         
         @SuppressWarnings("unchecked")
 		List<User> list =  query.getResultList();
-        if (list == null) {
-        	return false;
-        }
-        return true;
-	}
-	
+        if (list != null && list.size() > 0) {
+        	return true;
+        }        
+		return false;        
+	}	
 }

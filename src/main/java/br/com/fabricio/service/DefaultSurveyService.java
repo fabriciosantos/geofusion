@@ -14,7 +14,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import br.com.fabricio.model.Survey;
+import br.com.fabricio.model.User;
 import br.com.fabricio.repository.SurveyRepository;
+import br.com.fabricio.repository.UserRepository;
 import br.com.fabricio.util.FailureResponseBuilder;
 import br.com.fabricio.util.ServiceUtil;
 import br.com.fabricio.util.StatusException;
@@ -22,15 +24,23 @@ import br.com.fabricio.util.StatusException;
 public class DefaultSurveyService implements SurveyService{
 
     private SurveyRepository surveyRepository;
+    private UserRepository userRepository;
     private Validator validator;
     private Logger logger = LoggerFactory.getLogger(DefaultSurveyService.class);
 
     @Inject
-    public DefaultSurveyService(SurveyRepository surveyRepository, Validator validator) {
+    public DefaultSurveyService(SurveyRepository surveyRepository, UserRepository userRepository, Validator validator) {
         this.surveyRepository = surveyRepository;
+        this.userRepository = userRepository;
         this.validator = validator;
     }
 
+    /**
+	 * Serviço responsavel para inserir uma Survey.
+	 * @param pessoa entidade que sera inserida
+	 * @return 201 created, ou 500 internal server error.
+	 * @throws Exception
+	 */
 	@Override
 	public Response create(UriInfo uriInfo, String compositeKey, Survey survey) {
 		try {
@@ -40,8 +50,10 @@ public class DefaultSurveyService implements SurveyService{
 	            logger.error(error);
 	            return new FailureResponseBuilder().toResponse(new StatusException(Status.BAD_REQUEST.getStatusCode(), error));
 	        }
-			Survey userReturn = surveyRepository.create(compositeKey, survey);
-			URI uri = uriInfo.getRequestUriBuilder().path(String.valueOf(userReturn.getId())).build();
+			User userReturn = userRepository.update(survey.getUser());
+			survey.setUser(userReturn);
+			Survey surveyReturn = surveyRepository.create(survey.getUser().getCompositeKey(), survey);
+			URI uri = uriInfo.getRequestUriBuilder().path(String.valueOf(surveyReturn.getId())).build();
             logger.debug("Service : Pesquisa criada.");
             return Response.created(uri).build();
 		} catch (Exception e) {
@@ -50,6 +62,12 @@ public class DefaultSurveyService implements SurveyService{
 		}
 	}
 	
+	/**
+	 * Serviço responsavel por verificar se se existe uma Survey com User que contenha a compositeKey referenciada.
+	 * @param String compositeKey
+	  * @return 200 , 404 se a Survey não for encontrada ou 500 internal server error
+	 * @throws Exception
+	 */
 	@Override
 	public Response verify(String compositeKey) {
 		try {
@@ -62,5 +80,5 @@ public class DefaultSurveyService implements SurveyService{
 			logger.equals(e.getMessage());
 			return new FailureResponseBuilder().toResponse(e);
 		}
-	}	
+	}
 }

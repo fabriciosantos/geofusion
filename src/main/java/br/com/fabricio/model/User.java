@@ -19,13 +19,13 @@ public class User implements Serializable{
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-	@Column(name = "NAME", nullable = false, length = 50)
+	@Column(name = "name", nullable = false, length = 50)
     private String name;
 
-	@Column(name = "EMAIL", nullable = false, length = 100)
+	@Column(name = "email", nullable = false, length = 100)
     private String email;
 
-	@Column(name = "COMPOSITEKEY", nullable = false, length = 50)
+	@Column(name = "composite_key", nullable = false, length = 50)
     private String compositeKey;
 
 	public Integer getId() {

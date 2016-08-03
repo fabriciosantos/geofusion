@@ -18,7 +18,7 @@ public interface SurveyService {
     @POST
     @Path("/{compositeKey}")
     @Consumes("application/json")
-    Response create(@Context UriInfo uriInfo, @PathParam("compositeKey") String compositeKey, Survey survey);
+    Response create(@Context UriInfo uriInfo, @PathParam("compositeKey")String compositeKey, Survey survey);
 
     @GET
     @Path("/{compositeKey}")

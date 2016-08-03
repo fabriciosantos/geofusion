@@ -1,10 +1,6 @@
 package br.com.fabricio.service;
 
 import org.junit.Test;
-import static com.jayway.restassured.RestAssured.expect;
-import static com.jayway.restassured.RestAssured.given;
-
-import javax.ws.rs.core.Response;
 
 public class SurveyServiceTestIT {
 
@@ -12,14 +8,37 @@ public class SurveyServiceTestIT {
 	
     @Test
     public void create() {
-    	String json = "{\"question1\":\"reposta1\",\"question2\":\"reposta2\",\"question3\":\"reposta3\",\"user\":{\"id\":\"1\"}";
-    	TestUtil.restCreate(json, path);
+    	String json = "{\"id\":\"\",\"question1\":\"reposta1\",\"question2\":\"reposta2\",\"question3\":\"reposta3\",\"user\": "
+    			+ "{\"id\":\"\",\"name\":\"joao\",\"email\":\"teste@gmail.com\",\"compositeKey\":\"9876227678893232314\"}}";
+    	TestUtil.restCreate(json, path +"/9876227678893232314"  );
     }
     
     @Test
-    public void createException(){
-    	String json = "{\"question1\":\"reposta1\",\"question2\":\"reposta2\",\"question3\":\"reposta3\",\"user\":{\"id\":\"1\"}";
-    	TestUtil.restCreateBadRequest(json, path);
+    public void createNotFound() {
+       	String json = "{\"id\":\"\",\"question1\":\"reposta1\",\"question2\":\"reposta2\",\"question3\":\"reposta3\","
+    			+ "\"user\":{\"id\":\"\",\"name\":\"joao\",\"email\":\"carta@test.com\",\"compositeKey\":\"\"}}";
+    	TestUtil.restCreateNotFound(json, path + "/");
+    }
+    
+    @Test
+    public void createBadRequest(){
+    	String json = "{\"id\":\"\",\"question1\":\"reposta1\",\"question2\":\"reposta2\",\"question3\":\"reposta3\","
+    			+ "\"user\":{\"id\":\"\",\"name\":\"joao\",\"email\":\"mail@mail.com\",\"compositeKey\":\"9876227672672627\"}}";
+    	TestUtil.restCreateBadRequest(json, path + "/9876227672672627");
+    }
+    
+    @Test
+    public void verify() {
+    	TestUtil.restVerify(path, "1234");
     }
 
+    @Test
+    public void verifyBadRequest() {
+    	TestUtil.restVerifyBadRequest(path, "9876227678893232314");
+    }
+    
+    @Test
+    public void verifyNotFound() {
+    	TestUtil.restVerifyNotFound(path, "");
+    }
 }

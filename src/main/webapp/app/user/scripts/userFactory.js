@@ -10,7 +10,6 @@ app.factory('userFactory', function($http){
             return status;
         });
     	return promisse;
-    };
-    
+    };    
     return userFactory;
 })

@@ -76,42 +76,21 @@ public class UserRepositoryTest {
         when(query.getSingleResult()).thenReturn(list);
     	defaultUserRepository.create(user);
     }
-
-    @Test
-    public void findOne() throws Exception {
-    	User userFind = new User();
-    	userFind.setId(5);
-    	userFind.setName("Antonio");
-    	userFind.setEmail("curso@teste.com");
-    	userFind.setCompositeKey("10298372");
-    	
-    	
-    	when(entityManager.find(User.class, userFind.getId())).thenReturn(userFind);
-        User userReturn = defaultUserRepository.findOne(userFind.getId());
-    	assertEquals(userFind, userReturn);
-    }
-
-    @Test(expected=Exception.class)
-    public void findOneNotFound() throws Exception {
-    	Query query = mock(Query.class);
-    	when(entityManager.createQuery(Matchers.anyString())).thenReturn(query);
-        when(query.getSingleResult()).thenReturn(null);
-        User userReturn = defaultUserRepository.findOne(user.getId());
-    	assertEquals(user, userReturn);
-    }
-    
+ 
     @Test
     public void update() throws Exception {
-        User user = new User();
-        user.setId(4);
-        user.setName("João");
-        user.setEmail("de@test.com");
-                
+    	 
+        List<User> list = new ArrayList<>();
+        list.add(user);
+    	Query query = mock(Query.class);
+    	when(entityManager.createQuery(Matchers.anyString())).thenReturn(query);
+        when(query.getResultList()).thenReturn(list);
+    	        
     	when(entityManager.find(User.class, user.getId())).thenReturn(user);
         User userReturn = defaultUserRepository.update(user);
         assertEquals(user, userReturn);
         
-        }
+    }
 
     @Test(expected=Exception.class)
     public void updateNotFound() throws Exception {
