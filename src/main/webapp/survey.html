@@ -43,19 +43,23 @@
 				<h2>Responda nossa pesquisa e ganhe um modulo inicial totalmente gratis do nosso curso no dia do lançamento, que esta previsto para a primeira quinzena de dezembro de 2016.</h2></br>
 				<div class="form-group">
 				    <span >Nome</span>
-					<input type="text" name="name" class="form-control" ng-model="user.name" required><p></p>
+					<input type="text" name="name" class="form-control" ng-model="user.name" required>
+					<p Data-ng-show="form.name.$invalid"><font size="2" color="red" ><strong>Nome</strong> é obrigatorio!</font></p><p></p>
 				</div>
 				<div class="form-group">
 				    <span >Oque você espera do nosso curso?</span>
-					<input type="text" name="question1" class="form-control" ng-model="survey.question1" required><p></p>
+					<input type="text" name="question1" class="form-control" ng-model="survey.question1" required
+					<p Data-ng-show="form.question1.$invalid"><font size="2" color="red" ><strong>Campo</strong> obrigatorio!</font></p>><p></p>
 				</div>
 				<div class="form-group">
 				    <span >Quanto você esta disposto a pagar para por este curso?</span>
-					<input type="text" name="question2" class="form-control" ng-model="survey.question2" required><p></p>
+					<input type="text" name="question2" class="form-control" ng-model="survey.question2" required>
+					<p Data-ng-show="form.question2.$invalid"><font size="2" color="red" ><strong>Campo</strong> obrigatorio!</font></p><p></p>
 				</div>
 				<div class="form-group">
 				    <span >O que você realmente precisa?</span>
-					<input type="text" name="question3" class="form-control" ng-model="survey.question3" required><p></p>
+					<input type="text" name="question3" class="form-control" ng-model="survey.question3" required
+					<p Data-ng-show="form.question3.$invalid"><font size="2" color="red" ><strong>Campo</strong> obrigatorio!</font></p><p></p>
 				</div>
 				<div class="form-group">
 			  		<button type="button" Data-ng-click="save()" class="btn btn-primary" Data-ng-disabled="form.$invalid">Enviar</button>
