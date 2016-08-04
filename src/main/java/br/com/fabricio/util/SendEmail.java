@@ -42,7 +42,7 @@ public class SendEmail {
 		props.put("mail.smtp.socketFactory.fallback", "false");
 		//Cria um autenticador que sera usado a seguir
 		SimpleAuth auth = null;
-		auth = new SimpleAuth ("fluenciaagora@gmail.com", "@Fluencia");
+		auth = new SimpleAuth ("fluenciaagora1@gmail.com", "@Fluencia");
 		//Session - objeto que ira realizar a conexão com o servidor
 		/*Como há necessidade de autenticação é criada uma autenticacao que
 		 * é responsavel por solicitar e retornar o usuário e senha para 
