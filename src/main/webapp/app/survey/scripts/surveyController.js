@@ -9,7 +9,6 @@ app.controller('surveyController', ['$scope', 'surveyFactory', function($scope, 
 	
 	$scope.verify = function(){
 		surveyFactory.verify($scope.key[1]).then(function (data){
-			location.href = "congratulations.html";
 			return data;
 		}).catch(function(data){
 			(data.status == 400) ? alert("O email já respondeu a pesquisa.") : alert("Cadastre o seu email novamente.");
@@ -19,6 +18,7 @@ app.controller('surveyController', ['$scope', 'surveyFactory', function($scope, 
 	
 	$scope.save = function() {
 		surveyFactory.save($scope.key[1], $scope.survey).then(function (data) {
+			location.href = "congratulations.html";
 			return data;
 		}).catch(function (data) {
 			(data.status == 500) ? alert("Responda novamente a pesquisa."):null;
