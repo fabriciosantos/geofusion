@@ -28,10 +28,10 @@
 		<div class="container">
 			<div>
 				</br><h2>Todos já sabemos que falar inglês é muito importante, seja para uma viagem, ou para uma tão sonhada promoção no trabalho.
-				Mas arrumar tempo para ir em a um escola tradicional, com metodos tradicionais, que te levará a fluência em aproximadamente 5 anos ou mais.
-				Não se encaixa mais na vida cotidiana que vivemos, onde o espaço para adquirir conhecimento é curto.</h2>
-				<h2>Após muitos anos de estudo e cansado de gastar fortunas em escolas tradicionais, descobri uma formula de como aprender não só o idioma inglês.
-				Mas qualquer idioma do mundo mas rápido do que os metodos convencionais, podendo alcançar fluência em apenas 4 meses.</h2>
+				Mas arrumar tempo para ir em a um escola tradicional, com métodos tradicionais, que te levará a fluência em aproximadamente 5 anos ou mais,
+				não se encaixa mais na vida cotidiana que vivemos, onde o espaço para adquirir conhecimento é curto.</h2>
+				<h2>Após muitos anos de estudo e cansado de gastar fortunas em escolas tradicionais, descobri uma fórmula de como aprender não só o idioma inglês, 
+				mas qualquer idioma do mundo mais rápido do que os métodos convencionais, podendo alcançar fluência em apenas 4 meses.</h2>
 		
 			</div>
 			<div>			
@@ -43,26 +43,23 @@
 				<h2>Responda nossa pesquisa e ganhe um modulo inicial totalmente gratis do nosso curso no dia do lançamento, que esta previsto para a primeira quinzena de dezembro de 2016.</h2></br>
 				<div class="form-group">
 				    <span >Nome</span>
-					<input type="text" name="name" class="form-control" ng-model="user.name" required>
-					<p Data-ng-show="form.name.$invalid"><font size="2" color="red" ><strong>Nome</strong> é obrigatorio!</font></p><p></p>
+					<input type="text" name="name" class="form-control" ng-model="user.name" required><p></p>
 				</div>
 				<div class="form-group">
-				    <span >Oque você espera do nosso curso?</span>
-					<input type="text" name="question1" class="form-control" ng-model="survey.question1" required>
-					<p Data-ng-show="form.question1.$invalid"><font size="2" color="red" ><strong>Campo</strong> obrigatorio!</font></p><p></p>
+				    <span >O que você espera do nosso curso?</span>
+					<input type="text" name="question1" class="form-control" ng-model="survey.question1" required><p></p>
 				</div>
 				<div class="form-group">
 				    <span >Quanto você esta disposto a pagar para por este curso?</span>
-					<input type="text" name="question2" class="form-control" ng-model="survey.question2" required>
-					<p Data-ng-show="form.question2.$invalid"><font size="2" color="red" ><strong>Campo</strong> obrigatorio!</font></p><p></p>
+					<input type="text" name="question2" class="form-control" ng-model="survey.question2" required><p></p>
 				</div>
 				<div class="form-group">
-				    <span >O que você realmente precisa?</span>
-					<input type="text" name="question3" class="form-control" ng-model="survey.question3" required>
-					<p Data-ng-show="form.question3.$invalid"><font size="2" color="red" ><strong>Campo</strong> obrigatorio!</font></p><p></p>
+				    <span >Do que você realmente precisa?</span>
+					<input type="text" name="question3" class="form-control" ng-model="survey.question3" required><p></p>
 				</div>
 				<div class="form-group">
 			  		<button type="button" Data-ng-click="save()" class="btn btn-primary" Data-ng-disabled="form.$invalid">Enviar</button>
+					<p Data-ng-show="form.$invalid"><font size="2" color="red" ><strong>Campo</strong> obrigatorio!</font></p>
 				</div>
 				</div>
 			</form>
