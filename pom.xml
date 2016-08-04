@@ -281,7 +281,7 @@
 				<db.password>6qqwD7wbM9bi</db.password>
 				<db.dialect>org.hibernate.dialect.MySQL5InnoDBDialect</db.dialect>
 				<db.database>fabricioashua</db.database>
-				<db.auto>create</db.auto>
+				<db.auto>update</db.auto>
 				<db.showsql>true</db.showsql>
 				<db.formatsql>true</db.formatsql>
 			</properties>
