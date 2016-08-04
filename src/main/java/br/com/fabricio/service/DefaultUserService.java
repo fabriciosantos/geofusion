@@ -52,7 +52,7 @@ public class DefaultUserService implements UserService{
 			String message = "	<h1>Obrigado pela sua participação no meu curso.</h1> "
 	    			+ "<h2>Click no botão abaixo para descobrir o segredo da fluência.</h2>"
 	    			+ "<h2>Um abraço e nós vemos em breve.</h2>"
-	    			+ "<a href=\"http://geofusiontest-geofusion.44fs.preview.openshiftapps.com/geofusion/survey.html?" + user.getCompositeKey()+"\" "
+	    			+ "<a href=\"http://geofusion-geofusion.44fs.preview.openshiftapps.com/geofusion/survey.html?" + user.getCompositeKey()+"\" "
 	    			+ "target=\"_blank\" style=\"border-color:#348eda; font-weight:400; text-decoration:none;"
 	    			+ " display:inline-block; margin:0; color:#ffffff; background-color:#348eda; border:solid 1px #348eda; border-radius:2px; "
 	    			+ "font-size:14px; padding:12px 45px\">Entrar</a>";
