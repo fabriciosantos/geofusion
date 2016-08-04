@@ -58,7 +58,7 @@ public class DefaultUserService implements UserService{
 	    			+ "font-size:14px; padding:12px 45px\">Entrar</a>";
 			
 			SendEmail sendEmail = new SendEmail("smtp.gmail.com","465");
-			sendEmail.sendMail("Fluencia Agora <fluenciaagora@gmail.com>", user.getEmail(), "Fluência Agora", message);
+			sendEmail.sendMail("Fluencia Agora <fluenciaagora@gmail.com>", user.getEmail(), "Fluencia Agora", message);
 			
 			URI uri = uriInfo.getRequestUriBuilder().path(String.valueOf(userReturn.getId())).build();
             logger.debug("Service : Usuario criado.");
