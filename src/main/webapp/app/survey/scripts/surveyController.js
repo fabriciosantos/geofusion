@@ -11,7 +11,7 @@ app.controller('surveyController', ['$scope', 'surveyFactory', function($scope, 
 		surveyFactory.verify($scope.key[1]).then(function (data){
 			return data;
 		}).catch(function(data){
-			(data.status == 400) ? alert("O email já respondeu a pesquisa.") : alert("Cadastre o seu email novamente.");
+			(data.status == 400) ? alert("Você já respondeu essa pesquisa. Obrigado!") : alert("Cadastre o seu email novamente.");
 			location.href = "index.html";
 		});
 	};
