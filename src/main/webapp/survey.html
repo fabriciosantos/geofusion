@@ -58,8 +58,9 @@
 					<input type="text" name="question3" class="form-control" ng-model="survey.question3" required><p></p>
 				</div>
 				<div class="form-group">
+					<p Data-ng-show="form.$invalid"><font size="2" color="red" ><strong>Todos os campo são de preenchimento obrigatório!</strong></font></p>
 			  		<button type="button" Data-ng-click="save()" class="btn btn-primary" Data-ng-disabled="form.$invalid">Enviar</button>
-					<p Data-ng-show="form.$invalid"><font size="2" color="red" ><strong>Campo</strong> obrigatorio!</font></p>
+					
 				</div>
 				</div>
 			</form>
