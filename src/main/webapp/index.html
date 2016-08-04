@@ -27,7 +27,8 @@
 			    		<span>Cadastre seu email para receber em primeira  mão este curso que vai revolucionar o jeito de aprender inglês.</font></span><br/>
 					<form name="form" ><p>
 						<div class="form-group">
-			  				<input type="email" name="email" class="form-control" Data-ng-model="user.email" placeholder="Email" required><p><p>
+			  				<input type="email" name="email" class="form-control" Data-ng-model="user.email" placeholder="Email" required>
+			  				<p Data-ng-show="form.email.$invalid"><font size="2" color="red" ><strong>Email</strong> é obrigatorio!</font></p><p><p>
 				    			<a class="btn btn-primary btn-xl page-scroll" Data-ng-click="save()" Data-ng-disabled="form.$invalid">Enviar</a>
 		    				</div>
 					</form>
